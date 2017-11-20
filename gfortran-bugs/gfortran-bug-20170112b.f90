@@ -18,7 +18,7 @@ program main
   
   select type (y)
   type is (character(*))
-    print *, len(y), y
+    print '(i0,1x,a)', len(y), y
   end select
 
 contains
@@ -26,10 +26,10 @@ contains
   function foobar(bar) result(foo)
     class(*), pointer :: foo, bar
     foo => bar
-    select type (foo)
-    type is (character(*))
-      print *, len(foo), foo
-    end select
+    !select type (foo)
+    !type is (character(*))
+    !  print *, len(foo), foo
+    !end select
   end function
 
 end program

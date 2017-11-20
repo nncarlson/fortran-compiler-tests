@@ -9,5 +9,5 @@ program main
   character(:), pointer :: s(:)
   allocate(character(3)::s(2))
   s(1) = 'foo'; s(2) = 'bar'
-  print *, s, ' (expect "foobar")'
+  print '(2a)', s ! expect foobar
 end program

@@ -7,12 +7,12 @@ contains
     class(*), allocatable :: copy(:,:)
     select type (array)
     type is (character(*))
-      print '(3i2,1x,3a)', len(array), shape(array), array, ' (expect 3 2 1 foobar)'
+      print '(a,3i2,1x,2a)', 'orig=', len(array), shape(array), array
     end select
     allocate(copy, source=array)
     select type (copy)
     type is (character(*))
-      print '(3i2,1x,3a)', len(copy), shape(copy), copy, ' (expect 3 2 1 foobar)'
+      print '(a,3i2,1x,2a)', 'copy=', len(copy), shape(copy), copy
     end select
   end
 end
