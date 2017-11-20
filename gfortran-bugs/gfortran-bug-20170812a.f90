@@ -1,4 +1,5 @@
-!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79072#add_comment
+!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79072
+!! fixed in 254966 (2017-11-20)
 !!
 !! $ gfortran --version
 !! GNU Fortran (GCC) 7.2.1 20171028

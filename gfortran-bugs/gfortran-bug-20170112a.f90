@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79072
+!! fixed in 254966 (2017-11-20)
 !! 
 !! This example gives an ICE with the current 7.0 trunk and all 6.x releases
 !! 

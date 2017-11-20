@@ -5,13 +5,16 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compile_test(SOURCES gfortran-bug-20171115.f90)
 add_run_test(SOURCES gfortran-bug-20171114a.f90)
-add_compile_test(SOURCES gfortran-bug-20171114b.f90)
-add_compile_test(SOURCES gfortran-bug-20171114c.f90)
-add_compile_test(SOURCES gfortran-bug-20170812b.f90)
+add_compile_test(NAME compile-20171114b SOURCES gfortran-bug-20171114b.f90)  # ICE with some versions
+add_run_test(SOURCES gfortran-bug-20171114b.f90)  # compiles but segfaults with others
+add_compile_test(NAME compile-20171114c SOURCES gfortran-bug-20171114c.f90)  # ICE with some versions
+add_run_test(SOURCES gfortran-bug-20171114c.f90)  # compiles but segfaults with others
 add_run_test(SOURCES gfortran-bug-20170812a.f90 PASS_REGULAR_EXPRESSION "b=\"foo\"")
-add_run_test(SOURCES gfortran-bug-20170112b.f90 PASS_REGULAR_EXPRESSION "5 fubar")
+add_compile_test(SOURCES gfortran-bug-20170812b.f90)
 add_compile_test(SOURCES gfortran-bug-20170112a.f90)
+add_run_test(SOURCES gfortran-bug-20170112b.f90 PASS_REGULAR_EXPRESSION "5 fubar")
 add_compile_test(SOURCES gfortran-bug-20160821.f90)
 add_run_test(SOURCES gfortran-bug-20160321.f90 PASS_REGULAR_EXPRESSION "copy= 3 2 1 foobar")
 add_run_test(SOURCES gfortran-bug-20160320.f90 PASS_REGULAR_EXPRESSION "3 2 foobar")
