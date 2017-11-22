@@ -1,4 +1,5 @@
-!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79072#add_comment
+!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79072
+!! fixed in 255064 (8.0.0 20171122)
 !!
 !! Same results with 20171028 version of 8.0.0 and 6.4.1
 !!
