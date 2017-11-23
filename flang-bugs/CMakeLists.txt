@@ -5,6 +5,9 @@ include(testing)
 
 project(flang-bug Fortran)
 
+add_compile_test(SOURCES flang-20171123a.f90)
+add_compile_test(SOURCES flang-20171123b.f90 WILL_FAIL)
+
 add_executable(flang-20171122a EXCLUDE_FROM_ALL flang-20171122a.f90)
 add_test(NAME flang-20171122a
     COMMAND ${CMAKE_COMMAND} --build . --target flang-20171122a --config $<CONFIGURATION>
