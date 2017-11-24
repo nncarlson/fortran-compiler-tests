@@ -42,3 +42,15 @@ associate (n_array => b%array%n)
   end select
 end associate
 end
+
+!! Turns out the associate block can be empty. This gives an ICE too
+!type foo
+!  integer n
+!end type
+!type bar
+!  type(foo) array(2)
+!end type
+!type(bar) b
+!associate (n_array => b%array%n)
+!end associate
+!end
