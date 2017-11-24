@@ -5,6 +5,7 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compile_test(SOURCES gfortran-20171124.f90 LABELS PR83146)
 add_run_test(SOURCES gfortran-bug-20171122.f90 PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]" LABELS PR83118)
 add_compile_test(SOURCES gfortran-bug-20171115.f90 LABELS PR83012)
 add_run_test(SOURCES gfortran-bug-20171114a.f90 LABELS PR82996)
