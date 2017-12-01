@@ -5,38 +5,48 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
-add_compile_test(SOURCES gfortran-20171124a.f90 LABELS PR83146)
-add_compile_test(SOURCES gfortran-20171124b.f90 LABELS PR49213)
-add_compile_test(SOURCES gfortran-20171124c.f90 LABELS PR83148)
-add_compile_test(SOURCES gfortran-20171124d.f90 COMPILE_FLAGS "-O1 -Werror" LABELS PR79929)
-add_compile_test(SOURCES gfortran-20171124e.f90 gfortran-20171124e-main.f90 LABELS PR83149)
-add_compile_test(SOURCES gfortran-20171124f.f90 gfortran-20171124f-main.f90 LABELS PR83149)
-add_run_test(SOURCES gfortran-bug-20171122.f90 PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]" LABELS PR83118)
-add_compile_test(SOURCES gfortran-bug-20171115.f90 LABELS PR83012)
-add_run_test(SOURCES gfortran-bug-20171114a.f90 LABELS PR82996)
-add_compile_test(NAME compile-20171114b SOURCES gfortran-bug-20171114b.f90 LABELS PR82996)  # ICE with some versions
-add_run_test(SOURCES gfortran-bug-20171114b.f90 LABELS PR82996)  # compiles but segfaults with others
-add_compile_test(NAME compile-20171114c SOURCES gfortran-bug-20171114c.f90 LABELS PR82996)  # ICE with some versions
-add_run_test(SOURCES gfortran-bug-20171114c.f90 LABELS PR82996)  # compiles but segfaults with others
-add_run_test(SOURCES gfortran-bug-20170812a.f90 PASS_REGULAR_EXPRESSION "b=\"foo\"" LABELS PR79072)
-add_compile_test(NAME compile-20170812b SOURCES gfortran-bug-20170812b.f90 LABELS PR79072)  # ICE with some versions
-add_run_test(SOURCES gfortran-bug-20170812b.f90 PASS_REGULAR_EXPRESSION "b=\"foo\"" LABELS PR79072)
-add_compile_test(SOURCES gfortran-bug-20170112a.f90 LABELS PR79072)
-add_run_test(SOURCES gfortran-bug-20170112b.f90 PASS_REGULAR_EXPRESSION "5 fubar" LABELS PR79072)
-add_compile_test(SOURCES gfortran-bug-20160821.f90 LABELS PR77310)
-add_run_test(SOURCES gfortran-bug-20160321.f90 PASS_REGULAR_EXPRESSION "copy= 3 2 1 foobar")
-add_run_test(SOURCES gfortran-bug-20160320.f90 PASS_REGULAR_EXPRESSION "3 2 foobar" LABELS PR67564)
-add_compile_test(SOURCES gfortran-bug-20160319a.f90 COMPILE_FLAGS "-Wsurprising -Werror" LABELS PR70312)
-add_compile_test(SOURCES gfortran-bug-20160319b.f90 COMPILE_FLAGS "-Wsurprising -Werror" LABELS PR70312)
-add_compile_test(SOURCES gfortran-bug-20160129.f90 LABELS PR69563)
-add_compile_test(SOURCES gfortran-bug-20151108.f90 LABELS PR66577)
-add_run_test(SOURCES gfortran-bug-20151102a.f90 LABELS PR54070) # success is not segfaulting
-add_run_test(SOURCES gfortran-bug-20151102b.f90 PASS_REGULAR_EXPRESSION "foobar" LABELS PR54070)
-add_compile_test(SOURCES gfortran-bug-20151101.f90 LABELS PR68174)
-add_run_test(SOURCES gfortran-bug-20150913.f90 LABELS PR67564) # success is not segfaulting
-add_run_test(SOURCES gfortran-bug-20150912a.f90 COMPILE_FLAGS "-fcheck=recursion" LABELS PR67560)
-add_compile_test(SOURCES gfortran-bug-20120411.f90 LABELS PR52864)
-add_compile_test(SOURCES gfortran-bug-20110616.f90 LABELS PR49213)
-add_compile_test(SOURCES gfortran-bug-20110528.f90 LABELS PR49213)
-add_compile_test(SOURCES gfortran-bug-20100925.f90 LABELS PR45794)
-add_compile_test(SOURCES gfortran-bug-20100924.f90 LABELS PR45786)
+add_compiler_test(SOURCES gfortran-20171124a.f90 COMPILE_ONLY LABELS PR83146)
+add_compiler_test(SOURCES gfortran-20171124b.f90 COMPILE_ONLY LABELS PR49213)
+add_compiler_test(SOURCES gfortran-20171124c.f90 COMPILE_ONLY LABELS PR83148)
+add_compiler_test(SOURCES gfortran-20171124d.f90 COMPILE_ONLY LABELS PR79929
+    COMPILE_FLAGS "-O1 -Werror")
+add_compiler_test(SOURCES gfortran-20171124e.f90 gfortran-20171124e-main.f90
+    COMPILE_ONLY LABELS PR83149)
+add_compiler_test(SOURCES gfortran-20171124f.f90 gfortran-20171124f-main.f90
+    COMPILE_ONLY LABELS PR83149)
+add_compiler_test(SOURCES gfortran-20171122.f90 RUN_ONLY LABELS PR83118
+    PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]")
+add_compiler_test(SOURCES gfortran-20171115.f90 COMPILE_ONLY LABELS PR83012)
+add_compiler_test(SOURCES gfortran-20171114a.f90 RUN_ONLY LABELS PR82996)
+add_compiler_test(SOURCES gfortran-20171114b.f90 LABELS PR82996)
+add_compiler_test(SOURCES gfortran-20171114c.f90 LABELS PR82996)
+add_compiler_test(SOURCES gfortran-20170812a.f90 RUN_ONLY LABELS PR79072
+    PASS_REGULAR_EXPRESSION "b=\"foo\"")
+add_compiler_test(SOURCES gfortran-20170812b.f90 LABELS PR79072
+    PASS_REGULAR_EXPRESSION "b=\"foo\"")
+add_compiler_test(SOURCES gfortran-20170112a.f90 COMPILE_ONLY LABELS PR79072)
+add_compiler_test(SOURCES gfortran-20170112b.f90 RUN_ONLY LABELS PR79072
+    PASS_REGULAR_EXPRESSION "5 fubar")
+add_compiler_test(SOURCES gfortran-20160821.f90 COMPILE_ONLY LABELS PR77310)
+add_compiler_test(SOURCES gfortran-20160321.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "copy= 3 2 1 foobar")
+add_compiler_test(SOURCES gfortran-20160320.f90 RUN_ONLY LABELS PR67564
+    PASS_REGULAR_EXPRESSION "3 2 foobar")
+add_compiler_test(SOURCES gfortran-20160319a.f90 COMPILE_ONLY LABELS PR70312
+    COMPILE_FLAGS "-Wsurprising -Werror")
+add_compiler_test(SOURCES gfortran-20160319b.f90 COMPILE_ONLY LABELS PR70312
+    COMPILE_FLAGS "-Wsurprising -Werror")
+add_compiler_test(SOURCES gfortran-20160129.f90 COMPILE_ONLY LABELS PR69563)
+add_compiler_test(SOURCES gfortran-20151108.f90 COMPILE_ONLY LABELS PR66577)
+add_compiler_test(SOURCES gfortran-20151102a.f90 RUN_ONLY LABELS PR54070)
+add_compiler_test(SOURCES gfortran-20151102b.f90 RUN_ONLY LABELS PR54070
+    PASS_REGULAR_EXPRESSION "foobar")
+add_compiler_test(SOURCES gfortran-20151101.f90 COMPILE_ONLY LABELS PR68174)
+add_compiler_test(SOURCES gfortran-20150913.f90 RUN_ONLY LABELS PR67564)
+add_compiler_test(SOURCES gfortran-20150912a.f90 RUN_ONLY LABELS PR67560
+    COMPILE_FLAGS "-fcheck=recursion")
+add_compiler_test(SOURCES gfortran-20120411.f90 COMPILE_ONLY LABELS PR52864)
+add_compiler_test(SOURCES gfortran-20110616.f90 COMPILE_ONLY LABELS PR49213)
+add_compiler_test(SOURCES gfortran-20110528.f90 COMPILE_ONLY LABELS PR49213)
+add_compiler_test(SOURCES gfortran-20100925.f90 COMPILE_ONLY LABELS PR45794)
+add_compiler_test(SOURCES gfortran-20100924.f90 COMPILE_ONLY LABELS PR45786)
