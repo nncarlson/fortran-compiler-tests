@@ -32,6 +32,12 @@ program main
     print *, 'expect 2 4:', ptr(2,:)
     print *, 'expect 1 2:', ptr(:,1)
     print *, 'expect 3 4:', ptr(:,2)
+    if (all(ptr(1,:) == [1,3]) .and. all(ptr(2,:) == [2,4]) .and. &
+        all(ptr(:,1) == [1,2]) .and. all(ptr(:,2) == [3,4])) then
+      print *, 'pass'
+    else
+      print *, 'fail'
+    end if
   end select
   
 end program

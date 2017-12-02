@@ -12,11 +12,11 @@
 !! % ifort --version
 !! ifort (IFORT) 13.0.0 20120731
 !! 
-!! % ifort -c intel-bug-20121006a.f90
-!! intel-bug-20121006a.f90(51): error #8247: Selector in SELECT TYPE statements must be polymorphic value.
-!!   select type (uptr => foo%return_uptr())
-!! --^
-!! compilation aborted for intel-bug-20121006a.f90 (code 1)
+!! % ifort -c intel-bug-20121006a-fixed.f90
+!!intel-bug-20121006a-fixed.f90(52): error #8247: Selector in SELECT TYPE statements must be polymorphic value.
+!!  select type (uptr => foo%return_uptr())
+!!--^
+!!compilation aborted for intel-bug-20121006a-fixed.f90 (code 1)
 !!
 
 module typeA_def
@@ -45,12 +45,12 @@ program main
   
   !! SELECTOR IS CORRECTLY RECOGNIZED AS POLYMORPHIC
   select type (uptr => return_uptr(foo))
-  class is (integer)
+  class is (typeA)
   end select
   
   !! SELECTOR IS NOT RECOGNIZED AS POLYMORPHIC -- WRONG.
   select type (uptr => foo%return_uptr())
-  class is (integer)
+  class is (typeA)
   end select
   
 end program

@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.9)
+
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../cmake")
+include(testing)
+
+project(intel-bugs Fortran)
+
+add_compiler_test(SOURCES intel-20171126.f90 PASS_REGULAR_EXPRESSION "pass")
+add_compiler_test(SOURCES intel-20171115.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20171023.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "pass")
+add_compiler_test(SOURCES intel-20171019.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "p=\"fubar\"")
+add_compiler_test(SOURCES intel-20171018.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20150601.f90 RUN_ONLY FAIL_REGULAR_EXPRESSION "fail")
+add_compiler_test(SOURCES intel-20150531.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20141014.f90 intel-20141014-main.f90 RUN_ONLY
+    COMPILE_FLAGS "-O" PASS_REGULAR_EXPRESSION "M=2")
+add_compiler_test(SOURCES intel-20140618a.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "pass")
+add_compiler_test(SOURCES intel-20140618b.f90 RUN_ONLY) # pass if it doesn't segfault
+add_compiler_test(SOURCES intel-20140617.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "pass")
+add_compiler_test(SOURCES intel-20140616.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "pass")
+add_compiler_test(SOURCES intel-20140610.f90 RUN_ONLY)
+add_compiler_test(SOURCES intel-20140609.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20140424.f90 RUN_ONLY COMPILE_FLAGS "-assume realloc_lhs")
+add_compiler_test(SOURCES intel-20140420.f90 COMPILE_ONLY COMPILE_FLAGS "-standard-semantics")
+add_compiler_test(SOURCES intel-20140109.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20131030.f90 RUN_ONLY)
+add_compiler_test(SOURCES intel-20130802.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20130802a.f90 COMPILE_ONLY)
+add_compiler_test(NAME intel-20130330a SOURCES intel-20130330.F90 COMPILE_ONLY)
+add_compiler_test(NAME intel-20130330b SOURCES intel-20130330.F90 COMPILE_ONLY
+    COMPILE_FLAGS "-DSECOND_EXTENSION")
+add_compiler_test(SOURCES intel-20121014.f90 RUN_ONLY)
+add_compiler_test(SOURCES intel-20121013a.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "=13, buffer length=4")
+add_compiler_test(SOURCES intel-20121013.f90 COMPILE_ONLY WILL_FAIL)
+add_compiler_test(SOURCES intel-20121008.f90 RUN_ONLY COMPILE_FLAGS "-g -C")
+add_compiler_test(SOURCES intel-20121007a.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20121007b.f90 RUN_ONLY
+    FAIL_REGULAR_EXPRESSION "FINALIZER CALLED")
+add_compiler_test(SOURCES intel-20121006.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20121006a.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20121006b.f90 intel-20121006b-main.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES intel-20121001.f90 RUN_ONLY)

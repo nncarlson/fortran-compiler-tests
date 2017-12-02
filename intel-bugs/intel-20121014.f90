@@ -68,13 +68,16 @@ contains
     
     allocate(d%b%pA)
     print *, 'd%b%pA associated? (expect T)', associated(d%b%pA)
+    if (.not.associated(d%b%pA)) stop 1
     
     print *, 'doing the equivalent of c%pA => d%b%pA'
     c = typeC(d%b)  ! THIS STATEMENT IS EQUIVALENT TO c%pA => d%b%pA
     
     print *, 'c%pA associated? (expect T)', associated(c%pA)
+    if (.not.associated(c%pA)) stop 2
     if (associated(c%pA)) then
       print *, 'c%pA and d%b%pA associated? (expect T) ', associated(c%pA, d%b%pA)
+      if (.not.associated(c%pA,d%b%pA)) stop 3
     end if
 
   end subroutine

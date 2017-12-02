@@ -45,6 +45,7 @@ program main
     print *, 'CORRECT: foo and object_mesh(obj) are associated'
   else
     print *, 'WRONG: foo and object_mesh(obj) are not associated'
+    stop 1
   end if
   
   !! BUT THIS GIVES THE CORRECT RESULT
@@ -53,6 +54,7 @@ program main
     print *, 'CORRECT: foo and bar are associated'
   else
     print *, 'WRONG: foo and bar are not associated'
+    stop 2
   end if
 
   !! NOTE THAT IF THE TYPE(MESH) POINTER COMPONENT IS REPLACED WITH

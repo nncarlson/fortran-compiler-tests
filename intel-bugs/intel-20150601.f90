@@ -48,14 +48,18 @@ program main
   !allocate(sizes(5))
   !sizes(:) = sets%size()
 
-  print *, sizes      ! PRINTS EXPECTED VALUES
+  !print *, sizes      ! PRINTS EXPECTED VALUES
   call sub (sizes)    ! PASS TO SUBROUTINE TO PRINT
 
 contains
 
   subroutine sub (array)
     integer :: array(:)
-    print *, array    ! PRINTS GARBAGE
+    if (any(array /= [1, 2, 3, 4, 5])) then
+      print '(a,5(1x,i0))', 'fail:', array
+    else
+      print '(a,5(1x,i0))', 'pass:', array
+    end if
   end subroutine
 
 end program

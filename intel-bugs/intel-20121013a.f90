@@ -78,13 +78,13 @@ program main
     end if
     inquire(unit,pos=curr_pos)
     buflen = curr_pos - last_pos
-    print *, 'current stream position=', curr_pos, ', buffer length=', buflen
+    print '(2(a,i0))', 'current stream position=', curr_pos, ', buffer length=', buflen
     last_pos = curr_pos
     if (buflen > 0) then
-      print *, 'buffer=', buffer(:buflen)
+      print '(9a)', 'buffer=', buffer(:buflen)
     else
-      print *, 'buflen=0, dumping contents of entire buffer'
-      print *, 'buffer=', buffer
+      print '(a)', 'buflen=0, dumping contents of entire buffer'
+      print '(9a)', 'buffer=', buffer
     end if
     if (ios == iostat_end) exit
   end do

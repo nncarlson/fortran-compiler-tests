@@ -27,6 +27,11 @@ program main
 
   allocate(x%foo)
   deallocate(x%foo)
-  print *, allocated(x%foo), ' (expect F)'  ! GIVES THE WRONG RESULT
+  if (allocated(x%foo)) then
+    print *, 'fail'
+  else
+    print *, 'pass'
+  end if
+  !print '(a,l1,a)', 'alloc=', allocated(x%foo), ' (expect F)'  ! GIVES THE WRONG RESULT
   
 end program

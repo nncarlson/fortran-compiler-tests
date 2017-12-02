@@ -23,4 +23,9 @@ program main
   print *, 'len=', len(ptr1), ' (expect', len(array), ')'
   ptr2(1:1,1:1) => array    ! THIS DOES NOT WORK
   print *, 'len=', len(ptr2), ' (expect', len(array), ')'
+  if (len(ptr2) == 3) then
+    print *, 'pass'
+  else
+    print *, 'fail'
+  end if
 end program

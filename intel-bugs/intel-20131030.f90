@@ -25,6 +25,7 @@ contains
     allocate(p)
     deallocate(p)
     print *, 'associated(p) =', associated(p), '(should be FALSE)'
+    if (associated(p)) stop 1
   end subroutine
 end module
 

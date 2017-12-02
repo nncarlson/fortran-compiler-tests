@@ -41,4 +41,7 @@ program example
   print *, raise_case(string()), ' (expect "XXXXX")'       ! CORRECT RESULT
   print *, elem_raise_case(string()), ' (expect "XXXXX")'  ! GIVES WRONG RESULT
   print *, elem_raise_case(['a','z']), ' (expect "XX")'    ! BUT THIS IS CORRECT
+  if (raise_case(string()) /= 'XXXXX') stop 1
+  if (elem_raise_case(string()) /= 'XXXXX') stop 2
+  if (any(elem_raise_case(['a','z']) /= 'X')) stop 3
 end program

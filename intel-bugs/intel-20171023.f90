@@ -43,7 +43,11 @@ program main
 
   select type (scalar)
   type is (integer)
-    print *, scalar, '(expect 1)'
+    if (scalar == 1) then
+      print *, 'pass:', scalar, '(expect 1)'
+    else
+      print *, 'fail:', scalar, '(expect 1)'
+    end if
   end select
 
 end program
