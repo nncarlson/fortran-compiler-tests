@@ -58,9 +58,12 @@ contains
   function get() result(array)
     use mod1
     real array(ncells)
+    array = 1.0
   end function
 end module
 
+!subroutine sub
 !use mod2
-!s = sum(get())
+!s = size(get())
+!print *, s
 !end
