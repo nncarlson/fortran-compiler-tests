@@ -17,9 +17,15 @@ add_compiler_test(SOURCES gfortran-20171124f.f90 gfortran-20171124f-main.f90
 add_compiler_test(SOURCES gfortran-20171122.f90 RUN_ONLY LABELS PR83118
     PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]")
 add_compiler_test(SOURCES gfortran-20171115.f90 COMPILE_ONLY LABELS PR83012)
-add_compiler_test(SOURCES gfortran-20171114a.f90 RUN_ONLY LABELS PR82996)
-add_compiler_test(SOURCES gfortran-20171114b.f90 LABELS PR82996)
-add_compiler_test(SOURCES gfortran-20171114c.f90 LABELS PR82996)
+add_compiler_test(SOURCES gfortran-20171114a.f90 RUN_ONLY LABELS PR82996
+    COMPILE_FLAGS "-g -fsanitize=address,undefined"
+    LINK_FLAGS "-fsanitize=address,undefined")
+add_compiler_test(SOURCES gfortran-20171114b.f90 LABELS PR82996
+    COMPILE_FLAGS "-g -fsanitize=address,undefined"
+    LINK_FLAGS "-fsanitize=address,undefined")
+add_compiler_test(SOURCES gfortran-20171114c.f90 LABELS PR82996
+    COMPILE_FLAGS "-g -fsanitize=address,undefined"
+    LINK_FLAGS "-fsanitize=address,undefined")
 add_compiler_test(SOURCES gfortran-20170812a.f90 RUN_ONLY LABELS PR79072
     PASS_REGULAR_EXPRESSION "b=\"foo\"")
 add_compiler_test(SOURCES gfortran-20170812b.f90 LABELS PR79072
