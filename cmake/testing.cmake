@@ -37,7 +37,7 @@ function(add_compiler_test)
       COMMAND ${CMAKE_COMMAND} --build . --target ${TEST_NAME} --config $<CONFIGURATION>
       WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
     if(PARSE_WILL_FAIL)
-      set_tests_properties(${TEST_NAME} PROPERTIES WILL_FAIL TRUE)
+      set_tests_properties(${TEST_NAME}-exe PROPERTIES WILL_FAIL TRUE)
     endif()
     set_tests_properties(${TEST_NAME}-exe PROPERTIES LABELS "${LABELS}")
   elseif(PARSE_RUN_ONLY)

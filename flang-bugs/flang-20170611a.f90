@@ -1,4 +1,5 @@
 ! https://github.com/flang-compiler/flang/issues/96
+! Fixed as of 9/22/2017
 
 subroutine get_buffer(cptr, buflen, buffer)
   use,intrinsic :: iso_c_binding, only: c_char, c_size_t, c_ptr, c_f_pointer

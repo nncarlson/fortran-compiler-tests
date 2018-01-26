@@ -1,4 +1,5 @@
 ! https://github.com/flang-compiler/flang/issues/96
+! Fixed as of 9/22/2017
 
 module example
   type any_vector

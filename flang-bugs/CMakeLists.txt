@@ -5,6 +5,7 @@ include(testing)
 
 project(flang-bug Fortran)
 
+add_compiler_test(SOURCES flang-20180120.f90 LINK_ONLY WILL_FAIL)
 add_compiler_test(SOURCES flang-20171123a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20171123b.f90 COMPILE_ONLY WILL_FAIL)
 add_compiler_test(SOURCES flang-20171122a.f90 LINK_ONLY)

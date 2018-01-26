@@ -1,4 +1,5 @@
 ! https://github.com/flang-compiler/flang/issues/241
+! Fixed as of 10/21/2017
 
 module example
 
