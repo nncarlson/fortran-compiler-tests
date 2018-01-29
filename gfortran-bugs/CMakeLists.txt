@@ -5,6 +5,8 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compiler_test(SOURCES gfortran-20180128.f90 COMPILE_ONLY
+    WILL_FAIL LABELS PR84093)
 add_compiler_test(SOURCES gfortran-20171124a.f90 COMPILE_ONLY LABELS PR83146)
 add_compiler_test(SOURCES gfortran-20171124b.f90 COMPILE_ONLY LABELS PR49213)
 add_compiler_test(SOURCES gfortran-20171124c.f90 COMPILE_ONLY LABELS PR83148)
