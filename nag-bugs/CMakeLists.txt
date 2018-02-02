@@ -5,6 +5,9 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20180202c.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES nag-20180202b.f90)
+add_compiler_test(SOURCES nag-20180202a.f90)
 add_compiler_test(SOURCES nag-20180201.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES nag-20171110.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES nag-20171027.f90 COMPILE_ONLY)
