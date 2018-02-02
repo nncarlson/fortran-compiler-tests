@@ -1,3 +1,5 @@
+!! SR99909
+!!
 !! The presence of the external function FOO seems to be confusing
 !! the NAG compiler when it gets to the interface block within the
 !! main program.  That should define a local FOO procedure, having

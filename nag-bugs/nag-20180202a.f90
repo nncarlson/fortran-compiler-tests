@@ -1,3 +1,5 @@
+!! SR99908
+!!
 !! INTERNAL COMPILER ERROR
 !!
 !! The NAG 6.2 compiler, but not 6.1, gives an internal error
