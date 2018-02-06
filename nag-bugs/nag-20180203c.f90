@@ -29,5 +29,5 @@ type, extends(point) :: color_point ! Note 4.51 (F08) POINT is the name of the p
   integer color
 end type
 type(color_point) :: p
-p%point%x = 1.0   ! THE PARENT COMPONENT SHOULD BE P%POINT, NOT P%
+p%point%x = 1.0   ! THE PARENT COMPONENT SHOULD BE P%POINT, NOT P%PUNKT
 end
