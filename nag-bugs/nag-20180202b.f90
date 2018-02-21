@@ -1,4 +1,7 @@
-!! SR99909
+!! SR99909. Fixed in 6.2 build 6207
+!!
+!! NAG: Not valid F2003, but valid F2008.  Listed as an unsupported
+!! F2008 feature of NAG 6.1
 !!
 !! The presence of the external function FOO seems to be confusing
 !! the NAG compiler when it gets to the interface block within the

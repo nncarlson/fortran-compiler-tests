@@ -1,4 +1,4 @@
-!! SR99908
+!! SR99908. Fixed in 6.2 build 6207
 !!
 !! INTERNAL COMPILER ERROR
 !!

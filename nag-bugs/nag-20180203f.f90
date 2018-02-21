@@ -1,3 +1,4 @@
+!! Fixed in 6.2 build 6207
 !!
 !! INVALID INTERMEDIATE C CODE
 !!

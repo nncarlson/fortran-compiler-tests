@@ -1,3 +1,5 @@
+!! SR99921. Fixed in 6.2 build 6207
+!!
 !! BAD INTERMEDIATE C CODE -- LIST-DIRECTED I/O OF PDT
 !!
 !! The NAG 6.2 compiler generates invalid C code for this example.  It seems

@@ -1,3 +1,4 @@
+!! Fixed in 6.2 build 6207. 6.1 status?
 !!
 !! INVALID INTERMEDIATE C CODE -- 3-ARG BESSEL_JN VERSION
 !!

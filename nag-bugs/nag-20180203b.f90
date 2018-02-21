@@ -1,3 +1,4 @@
+!! Fixed in 6.2 build 6207.  6.1 status?
 !!
 !! This is an odd one. The NAG 6.2 and 6.1 compilers give a spurious
 !! compilation error for the following example.  But the code compiles

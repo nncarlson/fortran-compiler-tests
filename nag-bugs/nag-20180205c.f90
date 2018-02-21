@@ -1,3 +1,5 @@
+!! Fixed in 6.2 build 6207
+!!
 !! INTERNAL COMPILER ERROR -- EXTENSION OF PDT ALLOCATION
 !!
 !! The following example triggers an internal error with NAG 6.1

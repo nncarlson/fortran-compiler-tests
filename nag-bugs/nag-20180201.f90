@@ -1,4 +1,4 @@
-!! SR99906
+!! SR99906. Fixed in 6.2 build 6207.  6.1 status?
 !!
 !! INVALID INTERMEDIATE C CODE (FINALIZATION)
 !!
