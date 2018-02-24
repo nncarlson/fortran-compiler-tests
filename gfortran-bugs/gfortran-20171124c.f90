@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=83148
+!! Fixed on 8.0 trunk (r257930)
 !!
 !! ICE with the 8.0 trunk (20171123)
 !! Versions 7.2.1 and 6.4.1 are okay.
