@@ -5,6 +5,9 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+
+add_compiler_test(SOURCES gfortran-20180223a.f90 LABELS PR84539)
+add_compiler_test(SOURCES gfortran-20180223b.f90 LABELS PR84539)
 add_compiler_test(SOURCES gfortran-20180130e.f90 LABELS PR84143)
 add_compiler_test(SOURCES gfortran-20180130d.f90 COMPILE_ONLY LABELS PR84122)
 add_compiler_test(SOURCES gfortran-20180130c.f90 LABELS PR84120)
@@ -24,6 +27,8 @@ add_compiler_test(SOURCES gfortran-20171124e.f90 gfortran-20171124e-main.f90
 add_compiler_test(SOURCES gfortran-20171124f.f90 gfortran-20171124f-main.f90
     COMPILE_ONLY LABELS PR83149)
 add_compiler_test(SOURCES gfortran-20171122.f90 RUN_ONLY LABELS PR83118
+    PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]")
+add_compiler_test(SOURCES gfortran-20171122b.f90 RUN_ONLY LABELS PR83118
     PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]")
 add_compiler_test(SOURCES gfortran-20171115.f90 COMPILE_ONLY LABELS PR83012)
 add_compiler_test(SOURCES gfortran-20171114a.f90 RUN_ONLY LABELS PR82996
