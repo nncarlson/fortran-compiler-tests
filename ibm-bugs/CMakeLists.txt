@@ -10,3 +10,4 @@ message(STATUS "CMAKE_Fortran_FLAGS=${CMAKE_Fortran_FLAG}")
 
 add_compiler_test(SOURCES ibm-20180301a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES ibm-20180301b.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES ibm-20180301c.F90 COMPILE_ONLY)
