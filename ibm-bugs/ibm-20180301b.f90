@@ -1,6 +1,9 @@
 !!
 !! INTERNAL COMPILER ERROR
 !!
+!! This is a unit test from https://github.com/nncarlson/petaca stripped
+!! down to the bare minimum.  The ICE goes away if anything else is removed.
+!!
 !! $ xlf2008 ibm-20180301b.f90 
 !! /projects/opt/ppc64le/ibm/xlf-15.1.6/xlf/15.1.6/bin/.orig/xlf2008: 1501-230 (S) Internal compiler error; please contact your Service Representative. For more information visit:
 !! http://www.ibm.com/support/docview.wss?uid=swg21110810

@@ -5,6 +5,8 @@
 !! function result but the xlf compiler fails to recognize this and gives
 !! a spurious compilation error
 !!
+!! This is from https://github.com/nncarlson/petaca/blob/master/src/yajl_fort.F90
+!!
 !! $ xlf -qversion
 !! IBM XL Fortran for Linux, V15.1.6 (Community Edition)
 !! Version: 15.01.0006.0001
