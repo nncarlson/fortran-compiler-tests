@@ -5,7 +5,7 @@ include(testing)
 
 project(flang-bug Fortran)
 
-add_compiler_test(SOURCES flang-20180120.f90 LINK_ONLY WILL_FAIL)
+add_compiler_test(SOURCES flang-20180120.f90 LINK_ONLY WILL_FAIL LABELS FIXED)
 add_compiler_test(SOURCES flang-20171123a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20171123b.f90 COMPILE_ONLY WILL_FAIL)
 add_compiler_test(SOURCES flang-20171122a.f90 LINK_ONLY)
@@ -20,13 +20,13 @@ add_compiler_test(SOURCES flang-20171122f.f90 RUN_ONLY
 add_compiler_test(SOURCES flang-20171122g.f90 RUN_ONLY
     PASS_REGULAR_EXPRESSION "lbound=1 1, ubound=2 2, shape=2 2")
 add_compiler_test(SOURCES flang-20171122h.f90 LINK_ONLY)
-add_compiler_test(SOURCES flang-20170611a.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES flang-20170611b.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES flang-20170611c.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES flang-20170923a.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES flang-20170611a.f90 COMPILE_ONLY LABELS FIXED)
+add_compiler_test(SOURCES flang-20170611b.f90 COMPILE_ONLY LABELS FIXED)
+add_compiler_test(SOURCES flang-20170611c.f90 COMPILE_ONLY LABELS FIXED)
+add_compiler_test(SOURCES flang-20170923a.f90 COMPILE_ONLY LABELS FIXED)
 add_compiler_test(SOURCES flang-20170923b.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20170923c.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES flang-20170924a.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES flang-20170924a.f90 COMPILE_ONLY LABELS FIXED)
 add_compiler_test(SOURCES flang-20170924b.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20170924c.f90 RUN_ONLY
     PASS_REGULAR_EXPRESSION "42 \\(expect 42\\)")
