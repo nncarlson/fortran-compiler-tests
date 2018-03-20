@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/239
+!! Fixed as of 3/19/2018.
 !!
 !! $ flang -c flang-bug-20170923b.f90 
 !! F90-F-0155-Empty structure constructor() - type map (flang-bug-20170923b.f90: 12)

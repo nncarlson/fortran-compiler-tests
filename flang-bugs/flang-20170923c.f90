@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/240
+!! Fixed as of 3/19/2018.
 !!
 !! $ flang -c flang-bug-20170923c.f90
 !! clang-5.0: error: unable to execute command: Segmentation fault (core dumped)
