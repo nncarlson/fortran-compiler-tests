@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=84546
+!! Fixed in 8.0 r258438 (3/11/2018)
 !!
 !! BAD SOURCED ALLOCATION -- 7/8 REGRESSION
 !!
