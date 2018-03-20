@@ -1,5 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/240
-!! Fixed as of 3/19/2018.
+!! Fixed as of 3/19/2018, but see flang-20180319{a,b}.f90
 !!
 !! $ flang -c flang-bug-20170923c.f90
 !! clang-5.0: error: unable to execute command: Segmentation fault (core dumped)
@@ -10,7 +10,6 @@
 !! InstalledDir: /opt/flang/5.0/bin
 !! clang-5.0: note: diagnostic msg: PLEASE submit a bug report to  and include the crash backtrace, preprocessed source, and associated run script.
 !! clang-5.0: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
-
 
 module map_type
   type :: item
