@@ -1,3 +1,5 @@
+!! SR100256
+!!
 !! INTERNAL COMPILER ERROR -- PDT WITH PDT COMPONENT
 !!
 !! The following example triggers an internal error with NAG 6.2

@@ -1,4 +1,4 @@
-!! SR99982
+!! SR99982. Fixed in 6.2 build 6208; 6.1 build 6148.
 !!
 !! FINALIZATION SEGMENTATION FAULT
 !!

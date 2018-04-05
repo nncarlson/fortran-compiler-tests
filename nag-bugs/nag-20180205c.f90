@@ -1,4 +1,4 @@
-!! Fixed in 6.2 build 6207
+!! SR100256. Fixed in 6.2 build 6207; 6.1 build 6148
 !!
 !! INTERNAL COMPILER ERROR -- EXTENSION OF PDT ALLOCATION
 !!

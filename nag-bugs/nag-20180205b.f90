@@ -1,3 +1,5 @@
+!! SR100256. Fixed in 6.2 build 6210.
+!!
 !! INTERNAL COMPILER ERROR -- PDT
 !!
 !! The following example triggers an internal error with NAG 6.2
