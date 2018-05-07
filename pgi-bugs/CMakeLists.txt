@@ -23,3 +23,4 @@ add_compiler_test(SOURCES pgi-dt-asn-1.f90 RUN_ONLY)
 add_compiler_test(SOURCES pgi-src-alloc-2.f90 RUN_ONLY)
 
 add_compiler_test(SOURCES pgi-ptr-rank-remap-1.f90 RUN_ONLY)
+add_compiler_test(SOURCES pgi-ptr-rank-remap-2.f90 RUN_ONLY)
