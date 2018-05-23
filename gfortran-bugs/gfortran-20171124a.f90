@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=83146
+!! Fixed in 8.1.1 (20180521)
 !!
 !! ICE on select case statement with associate name
 !!

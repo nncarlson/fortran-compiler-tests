@@ -1,5 +1,6 @@
 !! Bug 77310
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=77310
+!! Fixed in 8.1.1 (20180521)
 !!
 !! Marked as a duplicate of bug 49636
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=49636
