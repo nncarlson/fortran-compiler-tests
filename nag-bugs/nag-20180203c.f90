@@ -3,7 +3,7 @@
 !!
 !! The NAG compiler gives this error for the following example:
 !!
-!! $ nagfor nag-bug-20180203c.f90 
+!! $ nagfor nag-20180203c.f90 
 !! NAG Fortran Compiler Release 6.2(Chiyoda) Build 6205
 !! Error: nag-bug-20180203c.f90, line 12: POINT is not a component of P
 !!        detected at %@POINT
