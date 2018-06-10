@@ -5,7 +5,8 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
-
+add_compiler_test(SOURCES gfortran-20180610.f90 LABELS PR86100
+    COMPILE_FLAGS "-g -fcheck=bounds")
 add_compiler_test(SOURCES gfortran-20180224.f90 LABELS PR84546)
 add_compiler_test(SOURCES gfortran-20180223a.f90 LABELS PR84539)
 add_compiler_test(SOURCES gfortran-20180223b.f90 LABELS PR84539)
