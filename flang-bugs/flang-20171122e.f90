@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/309
+!! This example now executes correctly with 543785e7 (20180615)
 !!
 !! This example produces incorrect results. Likely the same problem as
 !! in flang-20171122c.f90.

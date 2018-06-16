@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/307
+!! This example now executes correctly with 543785e7 (20180615)
 !!
 !! $ flang flang-20171122a.f90 
 !! /tmp/flang-20171122a-6ad8d1.o: In function `MAIN_':

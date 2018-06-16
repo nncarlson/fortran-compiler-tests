@@ -1,6 +1,9 @@
 !! https://github.com/flang-compiler/flang/issues/240
 !! This adds a final procedure for ITEM to flang-20180319a.f90
 !!
+!! This example now compiles with 543785e7 (20180615), however
+!! the parent example flang-20180319a.f90 still dies with an ICE.
+!!
 !! This is with the 3/19/2018 flang version.
 !!
 !! $ flang -c flang-20180319b.f90

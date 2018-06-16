@@ -7,6 +7,13 @@
 !! F90-S-0000-Internal compiler error. emit_init:bad dt      54  (flang-20180319a.f90: 20)
 !! F90-S-0000-Internal compiler error. assem.c-put_skip old,new not in sync      16  (flang-20180319a.f90: 20)
 !!   0 inform,   0 warnings,   2 severes, 0 fatal for map_type
+!!
+!! New error with 543785e7 (20180615):
+!! $ flang -c flang-20180319a.f90
+!! /tmp/flang-20180319a-ce0d9c.ll:9:73: error: constant expression type mismatch
+!!   ...= global %struct_map_type_10_ < { i8*  null,  [16 x i8]  [ i8 0,i8 0,i8 ...
+!!                                                               ^
+!! 1 error generated.
 
 module map_type
   type :: item
