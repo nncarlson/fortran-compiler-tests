@@ -57,3 +57,9 @@ Some current cmake issues:
   `make` step probably terminates prematurely and may leave other test
   executables unbuilt. Running `ctest` will report 'did not run' for tests
   whose executable is missing. This isn't a satisfactory state of affairs.
+
+### License
+Practically you may consider the test codes as "public domain". They have
+no intrinsic value other than their sole purpose as bug reproducers for
+specific compilers. However, I've gathered that "public domain" can actually
+be a problem, so I've opted for the most liberal license I can find -- MIT.
