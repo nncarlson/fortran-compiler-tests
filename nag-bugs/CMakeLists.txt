@@ -5,6 +5,8 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20180731.f90 RUN_ONLY LABELS SR101681
+    COMPILE_FLAGS "-nan" FAIL_REGULAR_EXPRESSION "NaN")
 add_compiler_test(SOURCES nag-20180323.f90 COMPILE_ONLY LABELS SR100272)
 add_compiler_test(SOURCES nag-20180219.f90 RUN_ONLY LABELS SR99982)
 add_compiler_test(SOURCES nag-20180205c.f90 COMPILE_ONLY LABELS SR100256)
