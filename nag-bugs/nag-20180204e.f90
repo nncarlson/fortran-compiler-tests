@@ -1,3 +1,4 @@
+!! Fixed in 6.2 build 6216.
 !!
 !! INTERNAL COMPILER ERROR -- UNFORMATTED BIND DT INPUT
 !!

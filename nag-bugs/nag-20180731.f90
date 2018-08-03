@@ -1,3 +1,5 @@
+!! SR101681. Fixed in 6.2 build 6214.
+!!
 !! WRONG CODE WITH -nan
 !!
 !! With the -nan option the 6.2 compiler generates incorrect code for the
