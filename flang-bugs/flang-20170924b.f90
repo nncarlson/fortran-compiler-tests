@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/243
+!! Fully fixed as of 8/12/2018.
 !!
 !! $ flang -c flang-bug-20170924b.f90
 !! F90-F-0155-Too many elements in structure constructor- type foo (flang-bug-20170924b.f90: 5)

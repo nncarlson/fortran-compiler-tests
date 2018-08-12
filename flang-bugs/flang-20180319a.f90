@@ -1,5 +1,6 @@
 !! https://github.com/flang-compiler/flang/issues/240
 !! This adds a PREV component to flang-20170923c.f90
+!! Fixed as of 8/12/2018.
 !!
 !! This is with the 3/19/2018 flang version.
 !!

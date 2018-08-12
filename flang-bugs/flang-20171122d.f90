@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/308
+!! Fixed as of 8/12/2018.
 !!
 !! This ICE is most likely due to the same problem in flang-20171122b.f90
 !! Both ICE's occur at the SELECT TYPE statement where the selector is a

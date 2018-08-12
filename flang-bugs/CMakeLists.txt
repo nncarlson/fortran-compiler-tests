@@ -12,10 +12,11 @@ add_compiler_test(SOURCES flang-20171123a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20171123b.f90 COMPILE_ONLY WILL_FAIL)
 add_compiler_test(SOURCES flang-20171122a.f90 LABELS FIXED
     PASS_REGULAR_EXPRESSION "3 2 foobar")
-add_compiler_test(SOURCES flang-20171122b.f90 LINK_ONLY)
+add_compiler_test(SOURCES flang-20171122b.f90 LABELS FIXED
+    PASS_REGULAR_EXPRESSION "b=\"foo\"")
 add_compiler_test(SOURCES flang-20171122c.f90 RUN_ONLY
     PASS_REGULAR_EXPRESSION "copy= 3 2 1 foobar")
-add_compiler_test(SOURCES flang-20171122d.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES flang-20171122d.f90 COMPILE_ONLY LABELS FIXED)
 add_compiler_test(SOURCES flang-20171122e.f90 RUN_ONLY LABELS FIXED
     PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]")
 add_compiler_test(SOURCES flang-20171122f.f90 RUN_ONLY

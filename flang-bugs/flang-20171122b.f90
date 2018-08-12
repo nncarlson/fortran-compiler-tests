@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/308
+!! Fixed as of 8/12/2018.
 !!
 !! $ flang flang-20171122b.f90 
 !! F90-F-0000-Internal compiler error. insert_sym: bad hash     685  (flang-20171122b.f90: 12)
