@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=83118
+!! Fixed in 8.2.0, but bug remains open due to sparc issue.
 !!
 !! [REGRESSION] Intrinsic assignment of derived type with class(*) array
 !! component is not done correctly when the dynamic type is character.
