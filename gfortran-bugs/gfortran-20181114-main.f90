@@ -6,7 +6,9 @@
 !! The issue is that the call to foo%f is interpreted as a call to
 !! foo%never_call1. And, foo%never_call1 calls foo%f, so that we end
 !! up recursively calling foo%never_call1 despite there being no real
-!! calls to that procedure.
+!! calls to that procedure. Essential modules are in the file
+!! gfortran-20181114.f90, and must be in a separate file for the bug
+!! to appear.
 !!
 !! WARNING: If compiled without the -fcheck=all flag, and run with
 !!          unlimited stack size, it will consume all memory and lock
