@@ -72,3 +72,6 @@ add_compiler_test(SOURCES gfortran-20110616.f90 COMPILE_ONLY LABELS PR49213)
 add_compiler_test(SOURCES gfortran-20110528.f90 COMPILE_ONLY LABELS PR49213)
 add_compiler_test(SOURCES gfortran-20100925.f90 COMPILE_ONLY LABELS PR45794)
 add_compiler_test(SOURCES gfortran-20100924.f90 COMPILE_ONLY LABELS PR45786)
+add_compiler_test(SOURCES gfortran-20181114.f90 gfortran-20181114-main.f90
+  RUN_ONLY
+  COMPILE_FLAGS "-g -fcheck=all")
