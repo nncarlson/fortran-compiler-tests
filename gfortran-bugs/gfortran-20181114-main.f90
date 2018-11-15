@@ -1,3 +1,5 @@
+!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=88043
+!!
 !! RUNTIME ERROR WITH CALL TO DEFERRED MEMBER FUNCTION
 !!
 !! Failing with gfortran 8.2.1 20180831.
