@@ -1,5 +1,7 @@
 !! DEFAULT INITIALIZATION WITH VALID EMPTY CONSTRUCTOR REJECTED
 !!
+!! Fixed in 18.10
+!!
 !! This adds a final procedure for ITEM to pgi-dflt-init-1.f90
 !!
 !! $ pgfortran --version

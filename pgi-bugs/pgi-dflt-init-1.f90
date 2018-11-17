@@ -1,5 +1,7 @@
 !! ICE WITH DEFAULT INITIALIZATION OF DT COMPONENT
 !!
+!! Fixed in 18.10
+!!
 !! $ pgfortran --version
 !! pgfortran 18.4-0 64-bit target on x86-64 Linux -tp nehalem 
 !! $ pgfortran pgi-dflt-init-1.f90 

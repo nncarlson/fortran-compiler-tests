@@ -1,5 +1,7 @@
 !! VALID STRUCTURE CONSTRUCTOR REJECTED
 !!
+!! Fixed in 18.10
+!!
 !! Structure constructor with allocatable component
 !!
 !! $ pgfortran pgi-constructor-1.f90 

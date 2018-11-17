@@ -2,6 +2,7 @@
 !! MOVE_ALLOC WITH POLYMORPHIC ARGUMENTS LOSES DYNAMIC TYPE
 !!
 !! Incorrect results with 15.10, 16.10, 17.10, and 18.1
+!! Fixed in 18.10
 !!
 !! Originates from https://github.com/nncarlson/yajl-fort/blob/master/src/json.F90
 !! 

@@ -1,5 +1,7 @@
 !! BAD CLASS(*) ALLOCATION WITH CHARACTER ARRAY SOURCE
 !!
+!! Fixed in 18.10
+!!
 !! The following example produces incorrect results with 18.4.
 !! The correct results are:
 !!
