@@ -1,5 +1,7 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=84539
 !!
+!! Fixed on the 9.0 trunk, but persists on 8.
+!!
 !! ICE ON ASSIGNMENT TO CLASS(*) ALLOCATABLE ARRAY
 !!
 !! The assignment statement (not the declaration of X) seems to be
