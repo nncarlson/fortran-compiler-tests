@@ -1,6 +1,8 @@
 !!
 !! INCORRECT ASSIGNMENT TO ALLOCATABLE CHARACTER VARIABLE
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! The following example assigns to a an allocatable character variable.
 !! The variable is allocated but its length parameter is set to 0 which
 !! is incorrect.  A key to the error seems to be that the allocation

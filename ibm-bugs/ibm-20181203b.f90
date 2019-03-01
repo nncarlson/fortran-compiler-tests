@@ -1,6 +1,8 @@
 !!
 !! REJECTS VALID CODE
 !!
+!! Update: Bug persists in 16.1.1.2
+!!
 !! The XL Fortran 16.1.1-rc3 compiler rejects the following code with the
 !! error
 !!

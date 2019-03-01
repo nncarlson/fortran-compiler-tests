@@ -1,5 +1,7 @@
 !! VALID SPECIFICATION FUNCTION NOT RECOGNIZED AS SUCH
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! $ xlf2008 -qversion                                        
 !! IBM XL Fortran for Linux, V16.1.1 (Beta 2)
 !! Version: 16.01.0001.0000

@@ -1,6 +1,8 @@
 !!
 !! FUNCTION RESULT NOT RECOGNIZED TO HAVE BEEN SET
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! The call to the intrinsic function C_F_POINTER sets the value of the
 !! function result but the xlf compiler fails to recognize this and gives
 !! a spurious compilation error

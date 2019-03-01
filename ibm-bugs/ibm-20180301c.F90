@@ -6,6 +6,12 @@
 !! compiler error.  Note the source file has the suffix '.F90'.  The
 !! preprocessor should not be modifying the source at all.
 !!
+!! Update: This is apparently by design as a C preprocessor: the ??' is
+!! a trigraph that stands for ^. Solution is to use -WF,-qnotrigraph to
+!! avoid expanding trigraphs. While I'll accept it makes sense as a C
+!! preprocess behavior, I think it is bad form for it to be behaving
+!! this way by default in the context of Fortran.
+!!
 !! This is from https://github.com/nncarlson/petaca/blob/master/src/parameter_entry_class.F90
 !!
 !! $ xlf ibm-20180301c.F90

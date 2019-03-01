@@ -12,7 +12,8 @@ set(CMAKE_Fortran_FLAGS "") # CMake sets this to something, fools!
 
 add_compiler_test(SOURCES ibm-20180301a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES ibm-20180301b.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES ibm-20180301c.F90 COMPILE_ONLY)
+add_compiler_test(SOURCES ibm-20180301c.F90 COMPILE_ONLY
+                  COMPILE_FLAGS "-WF,-qnotrigraph")
 add_compiler_test(SOURCES ibm-20180306a.f90 RUN_ONLY)
 add_compiler_test(SOURCES ibm-20180306b.f90 RUN_ONLY)
 add_compiler_test(SOURCES ibm-20180703.f90 COMPILE_ONLY)

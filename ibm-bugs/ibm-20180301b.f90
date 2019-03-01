@@ -1,6 +1,8 @@
 !!
 !! INTERNAL COMPILER ERROR
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! This is a unit test from https://github.com/nncarlson/petaca stripped
 !! down to the bare minimum.  The ICE goes away if anything else is removed.
 !!

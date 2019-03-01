@@ -1,4 +1,6 @@
 !!
+!! Update: bug persists in 16.1.1.2
+!!
 !! The following example passes a non-contiguous character substring
 !! array to an assumed-size CHARACTER(LEN=1) array dummy. This should
 !! result in a contiguous copy of the actual argument being passed to

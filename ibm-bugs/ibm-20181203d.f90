@@ -1,5 +1,7 @@
 !! INTERNAL COMPILER ERROR
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! Using xlf 16.1.1-rc3 on power9
 !!
 !! $ xlf2008 ibm-20181203d.f90

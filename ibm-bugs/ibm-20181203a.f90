@@ -1,5 +1,7 @@
 !! REJECTS VALID CODE
 !!
+!! Update: Now working in 16.1.1.2
+!!
 !! The xlf 16.1.1-rc3 compiler (power9) rejects the following valid example:
 !!
 !! $ xlf ibm-20181203a.f90
