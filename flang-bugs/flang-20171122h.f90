@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/312
+!! Fixed in the 20190329 release
 !!
 !! $ flang flang-20171122h.f90 
 !! F90-S-0000-Internal compiler error. charlen: sym not adjustable-length char     299  (flang-20171122h.f90: 1)

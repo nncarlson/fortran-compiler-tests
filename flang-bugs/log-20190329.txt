@@ -1,0 +1,77 @@
+Test project /home/nnc/Fortran/fortran-compiler-tests/flang-bugs/build
+      Start  1: flang-20180319a-obj
+ 1/28 Test  #1: flang-20180319a-obj ..............   Passed    0.10 sec
+      Start  2: flang-20180319b-obj
+ 2/28 Test  #2: flang-20180319b-obj ..............   Passed    0.10 sec
+      Start  3: flang-20180120-exe
+ 3/28 Test  #3: flang-20180120-exe ...............   Passed    0.15 sec
+      Start  4: flang-20171123a-obj
+ 4/28 Test  #4: flang-20171123a-obj ..............***Failed    0.06 sec
+      Start  5: flang-20171123b-obj
+ 5/28 Test  #5: flang-20171123b-obj ..............***Failed    0.12 sec
+      Start  6: flang-20171122a-exe
+ 6/28 Test  #6: flang-20171122a-exe ..............   Passed    0.18 sec
+      Start  7: flang-20171122a-run
+ 7/28 Test  #7: flang-20171122a-run ..............   Passed    0.01 sec
+      Start  8: flang-20171122b-exe
+ 8/28 Test  #8: flang-20171122b-exe ..............   Passed    0.16 sec
+      Start  9: flang-20171122b-run
+ 9/28 Test  #9: flang-20171122b-run ..............   Passed    0.01 sec
+      Start 10: flang-20171122c-run
+10/28 Test #10: flang-20171122c-run ..............***Failed  Required regular expression not found.Regex=[copy= 3 2 1 foobar
+]  0.00 sec
+      Start 11: flang-20171122d-obj
+11/28 Test #11: flang-20171122d-obj ..............   Passed    0.09 sec
+      Start 12: flang-20171122e-run
+12/28 Test #12: flang-20171122e-run ..............   Passed    0.01 sec
+      Start 13: flang-20171122f-run
+13/28 Test #13: flang-20171122f-run ..............***Failed  Required regular expression not found.Regex=[len2=3 
+]  0.01 sec
+      Start 14: flang-20171122g-run
+14/28 Test #14: flang-20171122g-run ..............***Failed  Required regular expression not found.Regex=[lbound=1 1, ubound=2 2, shape=2 2
+]  0.01 sec
+      Start 15: flang-20171122h-exe
+15/28 Test #15: flang-20171122h-exe ..............   Passed    0.18 sec
+      Start 16: flang-20170611a-obj
+16/28 Test #16: flang-20170611a-obj ..............   Passed    0.09 sec
+      Start 17: flang-20170611b-obj
+17/28 Test #17: flang-20170611b-obj ..............   Passed    0.11 sec
+      Start 18: flang-20170611c-obj
+18/28 Test #18: flang-20170611c-obj ..............   Passed    0.12 sec
+      Start 19: flang-20170923a-obj
+19/28 Test #19: flang-20170923a-obj ..............   Passed    0.12 sec
+      Start 20: flang-20170923b-obj
+20/28 Test #20: flang-20170923b-obj ..............   Passed    0.13 sec
+      Start 21: flang-20170923c-obj
+21/28 Test #21: flang-20170923c-obj ..............   Passed    0.16 sec
+      Start 22: flang-20170924a-obj
+22/28 Test #22: flang-20170924a-obj ..............   Passed    0.15 sec
+      Start 23: flang-20170924b-exe
+23/28 Test #23: flang-20170924b-exe ..............   Passed    0.15 sec
+      Start 24: flang-20170924b-run
+24/28 Test #24: flang-20170924b-run ..............   Passed    0.01 sec
+      Start 25: flang-20170924c-run
+25/28 Test #25: flang-20170924c-run ..............***Failed  Required regular expression not found.Regex=[42 \(expect 42\)
+]  0.00 sec
+      Start 26: flang-20170930a-run
+26/28 Test #26: flang-20170930a-run ..............   Passed    0.00 sec
+      Start 27: flang-20170930b-obj
+27/28 Test #27: flang-20170930b-obj ..............   Passed    0.08 sec
+      Start 28: flang-20170930c-run
+28/28 Test #28: flang-20170930c-run ..............   Passed    0.00 sec
+
+79% tests passed, 6 tests failed out of 28
+
+Label Time Summary:
+FIXED        =   1.31 sec (13 tests)
+flang-bug    =   2.32 sec (28 tests)
+
+Total Test time (real) =   2.33 sec
+
+The following tests FAILED:
+	  4 - flang-20171123a-obj (Failed)
+	  5 - flang-20171123b-obj (Failed)
+	 10 - flang-20171122c-run (Failed)
+	 13 - flang-20171122f-run (Failed)
+	 14 - flang-20171122g-run (Failed)
+	 25 - flang-20170924c-run (Failed)

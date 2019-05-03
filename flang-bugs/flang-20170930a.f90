@@ -1,4 +1,5 @@
 !! https://github.com/flang-compiler/flang/issues/254
+!! Fixed in the 20190329 release
 !!
 !! Right shift of bits.  0 should move in from left.
 !!

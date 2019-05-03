@@ -1,4 +1,5 @@
 ! https://github.com/flang-compiler/flang/issues/253
+! Fixed in the 20190329 release
 
 program main
 
