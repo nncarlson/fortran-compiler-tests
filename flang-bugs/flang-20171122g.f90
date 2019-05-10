@@ -1,4 +1,4 @@
-!! https://github.com/flang-compiler/flang/issues
+!! https://github.com/flang-compiler/flang/issues/311
 !!
 !! Flang seems to be completely broken when it comes to pointer
 !! rank remapping for CLASS(*) objects.
