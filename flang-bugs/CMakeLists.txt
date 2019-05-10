@@ -5,6 +5,18 @@ include(testing)
 
 project(flang-bug Fortran)
 
+add_compiler_test(SOURCES flang-20190506b.f90 COMPILE_ONLY LABELS ISSUE715)
+add_compiler_test(SOURCES flang-20190506c.f90 COMPILE_ONLY LABELS ISSUE715)
+
+add_compiler_test(SOURCES flang-20190505a.f90 RUN_ONLY LABELS ISSUE714)
+
+add_compiler_test(SOURCES flang-20190504a.f90 LABELS ISSUE713)
+add_compiler_test(SOURCES flang-20190504b.f90 RUN_ONLY LABELS ISSUE713)
+add_compiler_test(SOURCES flang-20190504c.f90 RUN_ONLY LABELS ISSUE713)
+
+add_compiler_test(SOURCES flang-20190503a.f90 RUN_ONLY LABELS ISSUE244)
+add_compiler_test(SOURCES flang-20190503b.f90 RUN_ONLY LABELS ISSUE244)
+
 add_compiler_test(SOURCES flang-20180319a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES flang-20180319b.f90 COMPILE_ONLY LABELS FIXED)
 add_compiler_test(SOURCES flang-20180120.f90 LINK_ONLY WILL_FAIL LABELS FIXED)
