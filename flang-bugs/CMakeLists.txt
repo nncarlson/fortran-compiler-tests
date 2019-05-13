@@ -5,6 +5,12 @@ include(testing)
 
 project(flang-bug Fortran)
 
+add_compiler_test(SOURCES flang-20190512a.f90 RUN_ONLY LABELS ISSUE713)
+
+add_compiler_test(SOURCES flang-20190511a.f90 RUN_ONLY LABELS ISSUE720)
+add_compiler_test(SOURCES flang-20190511b.f90 RUN_ONLY LABELS ISSUE721)
+add_compiler_test(SOURCES flang-20190511c.f90 RUN_ONLY LABELS ISSUE722)
+
 add_compiler_test(SOURCES flang-20190506b.f90 COMPILE_ONLY
     LABELS ISSUE715)
 add_compiler_test(SOURCES flang-20190506c.f90 COMPILE_ONLY
