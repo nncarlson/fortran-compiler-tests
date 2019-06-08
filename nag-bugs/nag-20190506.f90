@@ -1,3 +1,4 @@
+!! SR103454: fixed in 6.2 build 6230
 !!
 !! WRONG RESULT FROM SOURCED ALLOCATION
 !!

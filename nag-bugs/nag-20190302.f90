@@ -1,3 +1,5 @@
+!! SR103029: fixed in 6.2 build 6228
+!!
 !! TYPE BOUND CONTIGUOUS POINTER FUNCTION NOT RECOGNIZED AS CONTIGUOUS
 !!
 !! In this example the type bound function contig_res returns a simply
