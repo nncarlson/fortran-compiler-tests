@@ -1,3 +1,4 @@
+!! SR103620: Fixed in 6233
 !!
 !! INTERNAL COMPILER ERROR
 !!
