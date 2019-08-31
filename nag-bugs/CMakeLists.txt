@@ -5,9 +5,10 @@ include(testing)
 
 project(nag-bug Fortran)
 
-add_compiler_test(SOURCES nag-20190826a.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES nag-20190826b.f90 COMPILE_ONLY)
-add_compiler_test(SOURCES nag-20190608.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES nag-20190831.f90 RUN_ONLY)
+add_compiler_test(SOURCES nag-20190826a.f90 COMPILE_ONLY LABELS SR104042)
+add_compiler_test(SOURCES nag-20190826b.f90 COMPILE_ONLY LABELS SR104042)
+add_compiler_test(SOURCES nag-20190608.f90 COMPILE_ONLY LABELS SR103620)
 add_compiler_test(SOURCES nag-20190507.f90 RUN_ONLY LABELS SR103454)
 add_compiler_test(SOURCES nag-20190506.f90 RUN_ONLY LABELS SR103454)
 add_compiler_test(SOURCES nag-20190302.f90 COMPILE_ONLY LABELS SR103029)
