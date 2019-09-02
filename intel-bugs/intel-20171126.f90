@@ -1,4 +1,4 @@
-!! SRN 03140120
+!! SRN 03140120: fixed in 19.0.4
 !!
 !! ICE on MERGE inside TYPE IS block
 !!

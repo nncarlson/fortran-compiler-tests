@@ -1,4 +1,4 @@
-!! Support request 03212814
+!! Support request 03212814: Fixed in 19.0.4
 !!
 !! Array bounds are not being set correctly in ALLOCATE with MOLD=
 !!

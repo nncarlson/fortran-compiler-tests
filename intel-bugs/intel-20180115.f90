@@ -1,4 +1,4 @@
-!! Support request 03209754
+!! Support request 03209754: fixed in 19.0.4
 !!
 !! LENGTH PARAMETER NOT SET FOR POLYMORPHIC SELECT-TYPE SELECTOR
 !!
