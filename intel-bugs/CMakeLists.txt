@@ -5,6 +5,7 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20190903b.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20190903.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20190901.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20180222.f90 RUN_ONLY)
