@@ -5,6 +5,7 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20190906.f90 RUN_ONLY LABELS SR104066)
 add_compiler_test(SOURCES nag-20190831.f90 RUN_ONLY LABELS SR104066)
 add_compiler_test(SOURCES nag-20190826a.f90 COMPILE_ONLY LABELS SR104042)
 add_compiler_test(SOURCES nag-20190826b.f90 COMPILE_ONLY LABELS SR104042)
