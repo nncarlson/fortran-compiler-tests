@@ -1,4 +1,4 @@
-!! SR104042
+!! SR104042: Fixed for 6.2 in build 6238. Still present in 6.1
 !!
 !! INTERNAL COMPILER ERROR
 !!
