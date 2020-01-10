@@ -1,3 +1,5 @@
+!! Service Request Number: 04488016
+!!
 !! INTERNAL COMPILER ERROR
 !!
 !! Affects both 18.0.5 and 19.0.5. No error if string is not allocatable.
