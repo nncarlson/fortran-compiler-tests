@@ -1,3 +1,5 @@
+!! SR104737: Fixed in 6252 (6.2) and 7008 (7.0)
+!!
 !! WRONG CODE UNDER OPTIMIZATION
 !!
 !! The 6.2 compiler generates wrong code for the following example
