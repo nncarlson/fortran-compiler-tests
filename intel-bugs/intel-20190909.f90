@@ -1,4 +1,5 @@
 !! Service Request Number: 04337903
+!! Fixed in 19.1.0. Still broken in 19.0.5
 !!
 !! DO CONCURRENT TYPE SPEC IGNORED IN MODULE PROCEDURE
 !!

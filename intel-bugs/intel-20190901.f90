@@ -1,4 +1,5 @@
 !! Support request 04329123
+!! Still broken in 19.0.5 and 19.1.0
 !!
 !! REJECTS VALID CODE
 !!
