@@ -5,6 +5,7 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20210619.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20200721.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20200213.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "COP")
 add_compiler_test(SOURCES intel-20200125.f90 RUN_ONLY)
