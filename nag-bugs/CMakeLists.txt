@@ -5,6 +5,8 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20220104.f90 COMPILE_ONLY)
+add_compiler_test(SOURCES nag-20220103.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES nag-20200124.f90 COMPILE_ONLY LABELS SR104818)
 add_compiler_test(SOURCES nag-20200110.f90 RUN_ONLY COMPILE_FLAGS "-O" LABELS SR104737)
 add_compiler_test(SOURCES nag-20190906.f90 RUN_ONLY LABELS SR104066)
