@@ -1,4 +1,4 @@
-!! SR108297
+!! SR108297: fixed in 7.1 build 7103
 !!
 !! INVALID INTERMEDIATE C CODE
 !!
