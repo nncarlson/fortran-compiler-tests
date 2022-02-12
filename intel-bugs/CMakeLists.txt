@@ -5,6 +5,8 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20220211.f90 RUN_ONLY
+    COMPILE_FLAGS "-standard-semantics -C -traceback")
 add_compiler_test(SOURCES intel-20211122.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20210619.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20200721.f90 COMPILE_ONLY)
