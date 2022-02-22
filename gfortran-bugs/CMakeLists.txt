@@ -5,6 +5,9 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compiler_test(SOURCES gfortran-20220221-module.f90
+    gfortran-20220221-submodule.f90 gfortran-20220221-main.f90
+    LINK_ONLY LABELS PR104630)
 add_compiler_test(SOURCES gfortran-20211123.f90 RUN_ONLY LABELS PR103394)
 add_compiler_test(SOURCES gfortran-20210527.f90 RUN_ONLY LABELS PR100815)
 add_compiler_test(SOURCES gfortran-20201204.f90 LABELS PR93762)
