@@ -1,3 +1,4 @@
+!! SR108549: fixed in 7.1 build 7106
 !!
 !! INTERNAL COMPILER ERROR
 !!

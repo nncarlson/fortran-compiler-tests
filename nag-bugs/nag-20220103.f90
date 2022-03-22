@@ -1,3 +1,5 @@
+!! Fixed in 7.1 build 7106
+!!
 !! COMPILER REJECTS VALID CODE
 !!
 !! In the following example the derived type FOO is imported into the parent

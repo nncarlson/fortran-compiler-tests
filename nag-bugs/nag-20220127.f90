@@ -1,3 +1,5 @@
+!! SR108353: fixed in 7.1 build 7106
+!!
 !! INVALID INTERMEDIATE C CODE
 !!
 !! The NAG 7.1 compiler generates invalid intermediate C code for

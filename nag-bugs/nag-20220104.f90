@@ -1,3 +1,5 @@
+!! SR108547: fixed in 7.1 build 7106
+!!
 !! COMPILER REJECTS VALID CODE
 !!
 !! The compiler issues a strange error for this example: "Cannot set attribute
@@ -8,7 +10,7 @@
 !! the example compiles fine with 7.0.
 !!
 !! $ nagfor -c -w=all bug.f90 
-!! NAG Fortran Compiler Release 7.1(Hanzomon) Build 7101
+!! NAG Fortran Compiler Release 7.1(Hanzomon) Build 7105
 !! Error: bug.f90, line 27: Cannot set attribute for derived type name EVENT
 !!        detected at SUBROUTINE@<end-of-statement>
 !! [NAG Fortran Compiler pass 1 error termination, 1 error, 1 warning]
