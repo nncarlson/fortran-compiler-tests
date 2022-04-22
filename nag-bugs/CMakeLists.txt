@@ -5,6 +5,7 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20220421.f90 RUN_ONLY COMPILE_FLAGS "-C=dangling" LABELS SR108695)
 add_compiler_test(SOURCES nag-20220312.f90 COMPILE_ONLY COMPILE_FLAGS "-f2018" LABELS SR108549)
 add_compiler_test(SOURCES nag-20220127.f90 COMPILE_ONLY COMPILE_FLAGS "-coarray" LABELS SR108353)
 add_compiler_test(SOURCES nag-20220117.f90 COMPILE_ONLY COMPILE_FLAGS "-coarray -f2018" LABELS SR108297)
