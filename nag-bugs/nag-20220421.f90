@@ -1,4 +1,4 @@
-!! SR108695
+!! SR108695: fixed in 7.1.7109
 !!
 !! SEGFAULT WITH -C=dangling
 !!
