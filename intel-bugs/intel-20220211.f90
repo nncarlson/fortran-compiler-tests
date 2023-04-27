@@ -1,3 +1,5 @@
+!! Bug report: CMPLRIL0-34602
+!!
 !! SPURIOUS BOUNDS ERROR FOR MISSING OPTIONAL ARGUMENT
 !!
 !! The bounds checking runtime should not be doing anything with a missing
@@ -6,7 +8,7 @@
 !! $ ifort --version
 !! ifort (IFORT) 2021.5.0 20211109
 !! 
-!! $ ifort -standard-semantics -C -traceback intel-20220211.f90 
+!! $ ifort -O0 -check shape -traceback intel-20220211.f90 
 !! $ ./a.out
 !! forrtl: severe (408): fort: (33): Shape mismatch: The extent of dimension 1 of array X is 2 and the corresponding extent of array M is 0
 !! 
