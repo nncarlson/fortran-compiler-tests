@@ -1,0 +1,199 @@
+Test project /home/nnc/Fortran/fortran-compiler-tests/gfortran-bugs/build
+      Start  1: gfortran-20220221-module-exe
+ 1/66 Test  #1: gfortran-20220221-module-exe .....***Failed    0.16 sec
+      Start  2: gfortran-20211123-run
+ 2/66 Test  #2: gfortran-20211123-run ............***Failed    0.00 sec
+      Start  3: gfortran-20210527-run
+ 3/66 Test  #3: gfortran-20210527-run ............   Passed    0.00 sec
+      Start  4: gfortran-20201204-exe
+ 4/66 Test  #4: gfortran-20201204-exe ............   Passed    0.11 sec
+      Start  5: gfortran-20201204-run
+ 5/66 Test  #5: gfortran-20201204-run ............***Failed    0.01 sec
+      Start  6: gfortran-20200501-obj
+ 6/66 Test  #6: gfortran-20200501-obj ............***Failed    0.12 sec
+      Start  7: gfortran-20200402-file1-exe
+ 7/66 Test  #7: gfortran-20200402-file1-exe ......***Failed    0.16 sec
+      Start  8: gfortran-20190202-run
+ 8/66 Test  #8: gfortran-20190202-run ............   Passed    0.00 sec
+      Start  9: gfortran-20180610-exe
+ 9/66 Test  #9: gfortran-20180610-exe ............   Passed    0.11 sec
+      Start 10: gfortran-20180610-run
+10/66 Test #10: gfortran-20180610-run ............***Failed    0.06 sec
+      Start 11: gfortran-20180224-exe
+11/66 Test #11: gfortran-20180224-exe ............   Passed    0.11 sec
+      Start 12: gfortran-20180224-run
+12/66 Test #12: gfortran-20180224-run ............   Passed    0.01 sec
+      Start 13: gfortran-20180223a-exe
+13/66 Test #13: gfortran-20180223a-exe ...........   Passed    0.11 sec
+      Start 14: gfortran-20180223a-run
+14/66 Test #14: gfortran-20180223a-run ...........   Passed    0.02 sec
+      Start 15: gfortran-20180223b-exe
+15/66 Test #15: gfortran-20180223b-exe ...........   Passed    0.11 sec
+      Start 16: gfortran-20180223b-run
+16/66 Test #16: gfortran-20180223b-run ...........   Passed    0.01 sec
+      Start 17: gfortran-20180130e-exe
+17/66 Test #17: gfortran-20180130e-exe ...........   Passed    0.11 sec
+      Start 18: gfortran-20180130e-run
+18/66 Test #18: gfortran-20180130e-run ...........***Failed    0.01 sec
+      Start 19: gfortran-20180130d-obj
+19/66 Test #19: gfortran-20180130d-obj ...........***Failed    0.11 sec
+      Start 20: gfortran-20180130c-exe
+20/66 Test #20: gfortran-20180130c-exe ...........***Failed    0.12 sec
+      Start 21: gfortran-20180130c-run
+Failed test dependencies: gfortran-20180130c-exe
+21/66 Test #21: gfortran-20180130c-run ...........***Not Run   0.00 sec
+      Start 22: gfortran-20180130b-obj
+22/66 Test #22: gfortran-20180130b-obj ...........***Failed    0.12 sec
+      Start 23: gfortran-20180130a-exe
+23/66 Test #23: gfortran-20180130a-exe ...........   Passed    0.11 sec
+      Start 24: gfortran-20180130a-run
+24/66 Test #24: gfortran-20180130a-run ...........***Failed    0.01 sec
+      Start 25: char-par-inquiry-exe
+25/66 Test #25: char-par-inquiry-exe .............   Passed    0.11 sec
+      Start 26: char-par-inquiry-run
+26/66 Test #26: char-par-inquiry-run .............   Passed    0.01 sec
+      Start 27: gfortran-20180129-exe
+27/66 Test #27: gfortran-20180129-exe ............   Passed    0.11 sec
+      Start 28: gfortran-20180129-run
+28/66 Test #28: gfortran-20180129-run ............***Failed    0.01 sec
+      Start 29: gfortran-20180128-obj
+29/66 Test #29: gfortran-20180128-obj ............***Failed    0.11 sec
+      Start 30: gfortran-20171124a-obj
+30/66 Test #30: gfortran-20171124a-obj ...........   Passed    0.11 sec
+      Start 31: gfortran-20171124b-obj
+31/66 Test #31: gfortran-20171124b-obj ...........***Failed    0.12 sec
+      Start 32: gfortran-20171124c-obj
+32/66 Test #32: gfortran-20171124c-obj ...........   Passed    0.11 sec
+      Start 33: gfortran-20171124d-obj
+33/66 Test #33: gfortran-20171124d-obj ...........   Passed    0.12 sec
+      Start 34: gfortran-20171124e-obj
+34/66 Test #34: gfortran-20171124e-obj ...........   Passed    0.11 sec
+      Start 35: gfortran-20171124f-obj
+35/66 Test #35: gfortran-20171124f-obj ...........   Passed    0.11 sec
+      Start 36: gfortran-20171122-run
+36/66 Test #36: gfortran-20171122-run ............   Passed    0.00 sec
+      Start 37: gfortran-20171122b-run
+37/66 Test #37: gfortran-20171122b-run ...........   Passed    0.00 sec
+      Start 38: gfortran-20171115-obj
+38/66 Test #38: gfortran-20171115-obj ............   Passed    0.11 sec
+      Start 39: gfortran-20171114a-run
+39/66 Test #39: gfortran-20171114a-run ...........   Passed    0.01 sec
+      Start 40: gfortran-20171114b-exe
+40/66 Test #40: gfortran-20171114b-exe ...........   Passed    0.11 sec
+      Start 41: gfortran-20171114b-run
+41/66 Test #41: gfortran-20171114b-run ...........   Passed    0.03 sec
+      Start 42: gfortran-20171114c-exe
+42/66 Test #42: gfortran-20171114c-exe ...........   Passed    0.11 sec
+      Start 43: gfortran-20171114c-run
+43/66 Test #43: gfortran-20171114c-run ...........   Passed    0.03 sec
+      Start 44: gfortran-20170812a-run
+44/66 Test #44: gfortran-20170812a-run ...........   Passed    0.00 sec
+      Start 45: gfortran-20170812b-exe
+45/66 Test #45: gfortran-20170812b-exe ...........   Passed    0.11 sec
+      Start 46: gfortran-20170812b-run
+46/66 Test #46: gfortran-20170812b-run ...........   Passed    0.01 sec
+      Start 47: gfortran-20170112a-obj
+47/66 Test #47: gfortran-20170112a-obj ...........   Passed    0.11 sec
+      Start 48: gfortran-20170112b-run
+48/66 Test #48: gfortran-20170112b-run ...........   Passed    0.00 sec
+      Start 49: gfortran-20160821-obj
+49/66 Test #49: gfortran-20160821-obj ............   Passed    0.11 sec
+      Start 50: gfortran-20160321-run
+50/66 Test #50: gfortran-20160321-run ............   Passed    0.00 sec
+      Start 51: gfortran-20160320-run
+51/66 Test #51: gfortran-20160320-run ............   Passed    0.00 sec
+      Start 52: gfortran-20160319a-obj
+52/66 Test #52: gfortran-20160319a-obj ...........   Passed    0.11 sec
+      Start 53: gfortran-20160319b-obj
+53/66 Test #53: gfortran-20160319b-obj ...........   Passed    0.10 sec
+      Start 54: gfortran-20160129-obj
+54/66 Test #54: gfortran-20160129-obj ............***Failed    0.09 sec
+      Start 55: gfortran-20151108-obj
+55/66 Test #55: gfortran-20151108-obj ............   Passed    0.09 sec
+      Start 56: gfortran-20151102a-run
+56/66 Test #56: gfortran-20151102a-run ...........   Passed    0.00 sec
+      Start 57: gfortran-20151102b-run
+57/66 Test #57: gfortran-20151102b-run ...........   Passed    0.00 sec
+      Start 58: gfortran-20151101-obj
+58/66 Test #58: gfortran-20151101-obj ............   Passed    0.10 sec
+      Start 59: gfortran-20150913-run
+59/66 Test #59: gfortran-20150913-run ............   Passed    0.00 sec
+      Start 60: gfortran-20150912a-run
+60/66 Test #60: gfortran-20150912a-run ...........   Passed    0.00 sec
+      Start 61: gfortran-20120411-obj
+61/66 Test #61: gfortran-20120411-obj ............   Passed    0.10 sec
+      Start 62: gfortran-20110616-obj
+62/66 Test #62: gfortran-20110616-obj ............***Failed    0.26 sec
+      Start 63: gfortran-20110528-obj
+63/66 Test #63: gfortran-20110528-obj ............***Failed    0.26 sec
+      Start 64: gfortran-20100925-obj
+64/66 Test #64: gfortran-20100925-obj ............   Passed    0.11 sec
+      Start 65: gfortran-20100924-obj
+65/66 Test #65: gfortran-20100924-obj ............   Passed    0.11 sec
+      Start 66: gfortran-20181114-run
+66/66 Test #66: gfortran-20181114-run ............***Failed    0.05 sec
+
+71% tests passed, 19 tests failed out of 66
+
+Label Time Summary:
+PR100815        =   0.00 sec*proc (1 test)
+PR103394        =   0.00 sec*proc (1 test)
+PR104630        =   0.16 sec*proc (1 test)
+PR40196         =   0.13 sec*proc (2 tests)
+PR45786         =   0.11 sec*proc (1 test)
+PR45794         =   0.11 sec*proc (1 test)
+PR49213         =   0.63 sec*proc (3 tests)
+PR52864         =   0.10 sec*proc (1 test)
+PR54070         =   0.00 sec*proc (2 tests)
+PR66577         =   0.09 sec*proc (1 test)
+PR67560         =   0.00 sec*proc (1 test)
+PR67564         =   0.00 sec*proc (2 tests)
+PR68174         =   0.10 sec*proc (1 test)
+PR69563         =   0.09 sec*proc (1 test)
+PR70312         =   0.21 sec*proc (2 tests)
+PR77310         =   0.11 sec*proc (1 test)
+PR79072         =   0.24 sec*proc (5 tests)
+PR79929         =   0.12 sec*proc (1 test)
+PR82996         =   0.29 sec*proc (5 tests)
+PR83012         =   0.11 sec*proc (1 test)
+PR83118         =   0.00 sec*proc (2 tests)
+PR83146         =   0.11 sec*proc (1 test)
+PR83148         =   0.11 sec*proc (1 test)
+PR83149         =   0.23 sec*proc (2 tests)
+PR84093         =   0.24 sec*proc (3 tests)
+PR84119         =   0.13 sec*proc (2 tests)
+PR84120         =   0.23 sec*proc (3 tests)
+PR84122         =   0.11 sec*proc (1 test)
+PR84143         =   0.12 sec*proc (2 tests)
+PR84539         =   0.25 sec*proc (4 tests)
+PR84546         =   0.12 sec*proc (2 tests)
+PR86100         =   0.17 sec*proc (2 tests)
+PR88043         =   0.05 sec*proc (1 test)
+PR89174         =   0.00 sec*proc (1 test)
+PR93762         =   0.13 sec*proc (2 tests)
+PR94463         =   0.16 sec*proc (1 test)
+PR94909         =   0.12 sec*proc (1 test)
+gfortran-bug    =   4.91 sec*proc (66 tests)
+
+Total Test time (real) =   4.93 sec
+
+The following tests FAILED:
+	  1 - gfortran-20220221-module-exe (Failed)
+	  2 - gfortran-20211123-run (Failed)
+	  5 - gfortran-20201204-run (Failed)
+	  6 - gfortran-20200501-obj (Failed)
+	  7 - gfortran-20200402-file1-exe (Failed)
+	 10 - gfortran-20180610-run (Failed)
+	 18 - gfortran-20180130e-run (Failed)
+	 19 - gfortran-20180130d-obj (Failed)
+	 20 - gfortran-20180130c-exe (Failed)
+	 21 - gfortran-20180130c-run (Not Run)
+	 22 - gfortran-20180130b-obj (Failed)
+	 24 - gfortran-20180130a-run (Failed)
+	 28 - gfortran-20180129-run (Failed)
+	 29 - gfortran-20180128-obj (Failed)
+	 31 - gfortran-20171124b-obj (Failed)
+	 54 - gfortran-20160129-obj (Failed)
+	 62 - gfortran-20110616-obj (Failed)
+	 63 - gfortran-20110528-obj (Failed)
+	 66 - gfortran-20181114-run (Failed)
