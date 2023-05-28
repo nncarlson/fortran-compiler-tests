@@ -43,15 +43,23 @@ module mfe_disc_type
   use pde_class
   type :: foo
     class(pde(:)), allocatable :: p
+!  contains
+!    procedure :: init
   end type
 !contains
 !  subroutine init(this)
 !    use navier_stokes_type
 !    class(foo), intent(out) :: this
 !    integer :: n
-!    call allocate_navier_stokes(p)
+!    call allocate_navier_stokes(this%p)
 !    n = this%p%npde
 !    print *, n
 !  end subroutine
 end module
 
+!program main
+!  use mfe_disc_type
+!  type(foo) :: x
+!  call x%init
+!  if (x%p%npde /= 3) error stop
+!end program
