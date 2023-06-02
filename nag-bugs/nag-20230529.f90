@@ -1,3 +1,5 @@
+!! SR109818: Fixed in 7129
+!!
 !! INTERNAL COMPILER ERROR
 !!
 !! The following example involving coarray derived type components as
