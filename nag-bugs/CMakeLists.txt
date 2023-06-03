@@ -5,6 +5,8 @@ include(testing)
 
 project(nag-bug Fortran)
 
+add_compiler_test(SOURCES nag-20230603b.f90 RUN_ONLY COMPILE_FLAGS "-coarray -num_images=2")
+add_compiler_test(SOURCES nag-20230603a.f90 COMPILE_ONLY COMPILE_FLAGS "-coarray -num_images=2")
 add_compiler_test(SOURCES nag-20230529.f90 COMPILE_ONLY LABELS SR109818)
 add_compiler_test(SOURCES nag-20230527.f90 LABELS SR109822)
 add_compiler_test(SOURCES nag-20230426.f90 COMPILE_ONLY COMPILE_FLAGS "-nan" LABELS SR109729)
