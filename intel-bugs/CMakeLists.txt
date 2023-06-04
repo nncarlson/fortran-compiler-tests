@@ -5,6 +5,8 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20230603.f90
+    COMPILE_FLAGS "-coarray -coarray-num-images=2")
 add_compiler_test(SOURCES intel-20220211.f90 RUN_ONLY
     COMPILE_FLAGS "-O0 -check shape -traceback")
 add_compiler_test(SOURCES intel-20211122.f90 COMPILE_ONLY)
