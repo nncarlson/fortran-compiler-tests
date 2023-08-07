@@ -1,5 +1,6 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=54070
 !! marked a duplicate of 
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! Compiled with 6.0 (20151025 snapshot).
 !!

@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=52864
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! SYNOPSIS: Application of argument intent to the target of a pointer component
 !!

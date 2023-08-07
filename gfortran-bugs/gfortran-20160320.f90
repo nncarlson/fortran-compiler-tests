@@ -1,5 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67564
-!!
+!! Fixed in 12.2.0 and probably much earlier
 
 class(*), allocatable :: val(:)
 call get_value (val)

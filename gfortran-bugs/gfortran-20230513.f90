@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=109846
+!! Fixed in 13.2.0
 !!
 !! REJECTS VALID CODE
 !!
@@ -7,7 +8,7 @@
 !!
 !! $ gfortran gfortran-20230513.f90
 !! gfortran-20230513.f90:17:11:
-
+!!
 !!    17 |   call sub(plist%sublist())
 !!       |           1
 !! Error: 'sublist' in variable definition context (actual argument to

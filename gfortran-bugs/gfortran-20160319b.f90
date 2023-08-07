@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=70312
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! duplicate of https://gcc.gnu.org/bugzilla/show_bug.cgi?id=58175
 !!

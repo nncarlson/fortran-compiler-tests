@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=45794
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! $ gfortran --version
 !! GNU Fortran (GCC) 4.6.0 20100924 (experimental)

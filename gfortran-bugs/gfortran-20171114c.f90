@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=82996
+!! Fixed in 12.2.0 and possibly earlier
 !!
 !! Okay, so maybe the elemental final procedure is causing the problem.
 !! Let's drop the elemental attribute, and change BAR_DESTROY to loop

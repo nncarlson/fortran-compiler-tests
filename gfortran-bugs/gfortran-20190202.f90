@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=89174
+!! Working in 12.2.0 and likely earlier.
 !!
 !! REGRESSION -- ALLOCATION SEGFAULT WITH CLASS(*) MOLD
 !!

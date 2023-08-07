@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67564
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! The following example segfaults on the allocate statement
 !!

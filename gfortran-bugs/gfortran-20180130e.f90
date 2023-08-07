@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=84143
+!! Working in 12.2.0 (and perhaps earlier)
 !!
 !! INTRINSIC OUTPUT OF PDT INCORRECTLY INCLUDES TYPE PARAMETERS
 !!

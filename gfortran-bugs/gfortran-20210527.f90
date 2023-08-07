@@ -1,4 +1,4 @@
-!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=100815
+!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=100815; fixed in 12.2 (and perhaps earlier)
 !!
 !! SEGFAULT IN ASSIGNMENT TO SCALAR ALLOCATABLE POLYMORPHIC LHS
 !!

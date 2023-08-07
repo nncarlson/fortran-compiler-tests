@@ -1,5 +1,6 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=54070
 !! this example marked a duplicate of https://gcc.gnu.org/bugzilla/show_bug.cgi?id=50221
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! Compiles with 5.2 and 6.0 20151025, but both return the wrong result:
 !! barbar (expect "foobar")

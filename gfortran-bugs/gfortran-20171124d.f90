@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=79929
+!! Fixed in 12.2.0 and probably earlier
 !!
 !! According to the comments on the PR, these are bogus warning messages.
 !! They occur with 8.0 (20171123) at -O1 and higher optimization levels,

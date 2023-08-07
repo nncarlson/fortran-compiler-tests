@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=82996
+!! Fixed in 12.2.0 and possibly earlier
 !!
 !! The issue seems to be the elemental final procedure being applied to
 !! to the B array component of the BAR object

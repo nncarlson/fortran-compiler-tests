@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=40196
+!! Fixed in 12.2.0 and possibly earlier.
 !!
 !! GFortran 8.0.0 and earlier don't recognize type parameter inquiry for
 !! the intrinsic character type.  See 6.4.5 (F08)

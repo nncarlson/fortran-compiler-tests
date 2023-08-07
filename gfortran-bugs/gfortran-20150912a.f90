@@ -1,6 +1,7 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67560
 !! marked a duplicate of https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67505
 !! itself subsequently a duplicate of https://gcc.gnu.org/bugzilla/show_bug.cgi?id=80361
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! $ gfortran --version
 !! GNU Fortran (GCC) 5.2.0

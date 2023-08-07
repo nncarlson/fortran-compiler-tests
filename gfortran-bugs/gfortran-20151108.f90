@@ -1,5 +1,6 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66577
 !! marked a duplicate of https://gcc.gnu.org/bugzilla/show_bug.cgi?id=61767
+!! Fixed in 12.2.0 and probably much earlier.
 !!
 !! Using gfortran 5.2:
 !!

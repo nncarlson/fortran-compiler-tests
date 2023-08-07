@@ -1,3 +1,5 @@
+!! Fixed in 12.2.0 and probably much earlier
+
 character(:), allocatable :: array(:,:)
 array = reshape(['foo','bar'],shape=[2,1])
 call sub (array)
