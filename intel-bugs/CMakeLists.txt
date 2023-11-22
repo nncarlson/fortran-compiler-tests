@@ -5,6 +5,7 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20231122.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20230604.f90 LINK_FLAGS "-coarray"
     COMPILE_FLAGS "-coarray -coarray-num-images=2" LABELS CMPLRLLVM-48376)
 add_compiler_test(SOURCES intel-20230603.f90 LINK_FLAGS "-coarray"
@@ -23,7 +24,7 @@ add_compiler_test(SOURCES intel-20190903b.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20190903.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20190901.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20180222.f90 RUN_ONLY)
-add_compiler_test(SOURCES intel-20180221.f90 RUN_ONLY)
+add_compiler_test(SOURCES intel-20180221.f90 RUN_ONLY LABELS CMPLRLLVM-53862)
 add_compiler_test(SOURCES intel-20180117.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "5 9")
 add_compiler_test(SOURCES intel-20180115.f90 RUN_ONLY PASS_REGULAR_EXPRESSION "5 \'fubar\'")
 add_compiler_test(SOURCES intel-20171126.f90 PASS_REGULAR_EXPRESSION "pass")
