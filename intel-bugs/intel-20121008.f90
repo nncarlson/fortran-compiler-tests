@@ -1,4 +1,20 @@
+!ifx 2024.0 gives this runtime error:
+! ifx -g -C intel-20121008.f90
+! ifx: remark #10440: Note that use of a debug option without any optimization-level option will turnoff most compiler optimizations similar to use of '-O0'
+! [nnc@thelio intel-bugs]$ ./a.out
+! ==68730==WARNING: MemorySanitizer: use-of-uninitialized-value
+!     #0 0x40be98 in _GLOBAL__sub_I_fast_mem_ops.c fast_mem_ops.c
+!     #1 0x7f5ed954b67d in __libc_start_main@GLIBC_2.2.5 (/lib64/libc.so.6+0x2767d) (BuildId: 0dc6d3e329f8bf5e8c1de63c4c9d560fb9953ade)
+!     #2 0x40bf04 in _start (/home/nnc/Fortran/fortran-compiler-tests/intel-bugs/a.out+0x40bf04) (BuildId: 257b4eb212fba16337780eef0012367701053e00)
+!
+!   Uninitialized value was created by an allocation of 'a.i.i' in the stack frame
+!     #0 0x40b439 in _GLOBAL__sub_I_fast_mem_ops.c fast_mem_ops.c
+!
+! SUMMARY: MemorySanitizer: use-of-uninitialized-value fast_mem_ops.c in _GLOBAL__sub_I_fast_mem_ops.c
+
 !Issue number DPD200237219
+!Fixed in the classic ifort compiler since at least version 17
+!
 !!
 !! SOURCED-ALLOCATION DOESN'T ALLOCATE POINTER IN CERTAIN CASES
 !!

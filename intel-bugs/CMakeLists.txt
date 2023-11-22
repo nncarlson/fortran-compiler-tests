@@ -5,9 +5,9 @@ include(testing)
 
 project(intel-bugs Fortran)
 
-add_compiler_test(SOURCES intel-20230604.f90
+add_compiler_test(SOURCES intel-20230604.f90 LINK_FLAGS "-coarray"
     COMPILE_FLAGS "-coarray -coarray-num-images=2" LABELS CMPLRLLVM-48376)
-add_compiler_test(SOURCES intel-20230603.f90
+add_compiler_test(SOURCES intel-20230603.f90 LINK_FLAGS "-coarray"
     COMPILE_FLAGS "-coarray -coarray-num-images=2" LABELS CMPLRLLVM-48333)
 add_compiler_test(SOURCES intel-20220211.f90 RUN_ONLY
     COMPILE_FLAGS "-O0 -check shape -traceback")
@@ -54,7 +54,7 @@ add_compiler_test(SOURCES intel-20121014.f90 RUN_ONLY)
 add_compiler_test(SOURCES intel-20121013a.f90 RUN_ONLY
     PASS_REGULAR_EXPRESSION "=13, buffer length=4")
 add_compiler_test(SOURCES intel-20121013.f90 COMPILE_ONLY WILL_FAIL)
-add_compiler_test(SOURCES intel-20121008.f90 RUN_ONLY COMPILE_FLAGS "-g -C")
+add_compiler_test(SOURCES intel-20121008.f90 RUN_ONLY COMPILE_FLAGS "-g -C" LINK_FLAGS "-C")
 add_compiler_test(SOURCES intel-20121007a.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20121007b.f90 RUN_ONLY
     FAIL_REGULAR_EXPRESSION "FINALIZER CALLED")
