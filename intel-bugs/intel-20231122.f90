@@ -1,7 +1,9 @@
+!! Will supposedly be fixed in 2024.1
+!!
 !! INTERNAL COMPILER ERROR
 !!
 !! No ICE if fptr is declared in subroutine bar, or if fptr is default
-!! initialized to null().
+!! initialized to null(). This is with 2024.0
 !!
 !! $ ifx -c intel-20231122.f90 
 !!           #0 0x000000000232d5da
