@@ -1,146 +1,149 @@
 Test project /home/nnc/Fortran/fortran-compiler-tests/intel-bugs/build
-      Start  1: intel-20231205-exe
- 1/59 Test  #1: intel-20231205-exe ...............   Passed    0.39 sec
-      Start  2: intel-20231205-run
- 2/59 Test  #2: intel-20231205-run ...............***Failed  Required regular expression not found. Regex=[after foo assignment
+      Start  1: intel-20231210-obj
+ 1/60 Test  #1: intel-20231210-obj ...............***Failed    0.17 sec
+      Start  2: intel-20231205-exe
+ 2/60 Test  #2: intel-20231205-exe ...............   Passed    0.39 sec
+      Start  3: intel-20231205-run
+ 3/60 Test  #3: intel-20231205-run ...............***Failed  Required regular expression not found. Regex=[after foo assignment
 ]  0.02 sec
-      Start  3: intel-20231123-exe
- 3/59 Test  #3: intel-20231123-exe ...............***Failed    0.18 sec
-      Start  4: intel-20231123-run
+      Start  4: intel-20231123-exe
+ 4/60 Test  #4: intel-20231123-exe ...............***Failed    0.18 sec
+      Start  5: intel-20231123-run
 Failed test dependencies: intel-20231123-exe
- 4/59 Test  #4: intel-20231123-run ...............***Not Run   0.00 sec
-      Start  5: intel-20231122-obj
- 5/59 Test  #5: intel-20231122-obj ...............***Failed    0.19 sec
-      Start  6: intel-20230604-exe
- 6/59 Test  #6: intel-20230604-exe ...............***Failed    0.35 sec
-      Start  7: intel-20230604-run
+ 5/60 Test  #5: intel-20231123-run ...............***Not Run   0.00 sec
+      Start  6: intel-20231122-obj
+ 6/60 Test  #6: intel-20231122-obj ...............***Failed    0.19 sec
+      Start  7: intel-20230604-exe
+ 7/60 Test  #7: intel-20230604-exe ...............***Failed    0.35 sec
+      Start  8: intel-20230604-run
 Failed test dependencies: intel-20230604-exe
- 7/59 Test  #7: intel-20230604-run ...............***Not Run   0.00 sec
-      Start  8: intel-20230603-exe
- 8/59 Test  #8: intel-20230603-exe ...............***Failed    0.39 sec
-      Start  9: intel-20230603-run
+ 8/60 Test  #8: intel-20230604-run ...............***Not Run   0.00 sec
+      Start  9: intel-20230603-exe
+ 9/60 Test  #9: intel-20230603-exe ...............***Failed    0.41 sec
+      Start 10: intel-20230603-run
 Failed test dependencies: intel-20230603-exe
- 9/59 Test  #9: intel-20230603-run ...............***Not Run   0.00 sec
-      Start 10: intel-20220211-run
-10/59 Test #10: intel-20220211-run ...............   Passed    0.00 sec
-      Start 11: intel-20211122-obj
-11/59 Test #11: intel-20211122-obj ...............   Passed    0.24 sec
-      Start 12: intel-20210619-obj
-12/59 Test #12: intel-20210619-obj ...............   Passed    0.24 sec
-      Start 13: intel-20200721-obj
-13/59 Test #13: intel-20200721-obj ...............   Passed    0.24 sec
-      Start 14: intel-20200213-run
-14/59 Test #14: intel-20200213-run ...............   Passed    0.00 sec
-      Start 15: intel-20200125-run
-15/59 Test #15: intel-20200125-run ...............   Passed    0.00 sec
-      Start 16: intel-20191229-run
-16/59 Test #16: intel-20191229-run ...............   Passed    0.00 sec
-      Start 17: intel-20191228-exe
-17/59 Test #17: intel-20191228-exe ...............   Passed    0.34 sec
-      Start 18: intel-20191228-run
-18/59 Test #18: intel-20191228-run ...............   Passed    0.02 sec
-      Start 19: intel-20190909-obj
-19/59 Test #19: intel-20190909-obj ...............   Passed    0.26 sec
-      Start 20: intel-20190903b-obj
-20/59 Test #20: intel-20190903b-obj ..............   Passed    0.29 sec
-      Start 21: intel-20190903-obj
-21/59 Test #21: intel-20190903-obj ...............   Passed    0.26 sec
-      Start 22: intel-20190901-obj
-22/59 Test #22: intel-20190901-obj ...............   Passed    0.25 sec
-      Start 23: intel-20180222-run
-23/59 Test #23: intel-20180222-run ...............   Passed    0.00 sec
-      Start 24: intel-20180221-run
-24/59 Test #24: intel-20180221-run ...............***Failed    0.00 sec
-      Start 25: intel-20180117-run
-25/59 Test #25: intel-20180117-run ...............   Passed    0.00 sec
-      Start 26: intel-20180115-run
-26/59 Test #26: intel-20180115-run ...............   Passed    0.00 sec
-      Start 27: intel-20171126-exe
-27/59 Test #27: intel-20171126-exe ...............   Passed    0.36 sec
-      Start 28: intel-20171126-run
-28/59 Test #28: intel-20171126-run ...............   Passed    0.02 sec
-      Start 29: intel-20171115-obj
-29/59 Test #29: intel-20171115-obj ...............   Passed    0.25 sec
-      Start 30: intel-20171023-run
-30/59 Test #30: intel-20171023-run ...............   Passed    0.00 sec
-      Start 31: intel-20171019-run
-31/59 Test #31: intel-20171019-run ...............   Passed    0.00 sec
-      Start 32: intel-20171018-obj
-32/59 Test #32: intel-20171018-obj ...............   Passed    0.24 sec
-      Start 33: intel-20150601-run
-33/59 Test #33: intel-20150601-run ...............   Passed    0.00 sec
-      Start 34: intel-20150531-obj
-34/59 Test #34: intel-20150531-obj ...............   Passed    0.26 sec
-      Start 35: intel-20141014-run
-35/59 Test #35: intel-20141014-run ...............   Passed    0.00 sec
-      Start 36: intel-20140618a-run
-36/59 Test #36: intel-20140618a-run ..............   Passed    0.00 sec
-      Start 37: intel-20140618b-run
-37/59 Test #37: intel-20140618b-run ..............   Passed    0.00 sec
-      Start 38: intel-20140617-run
-38/59 Test #38: intel-20140617-run ...............   Passed    0.00 sec
-      Start 39: intel-20140616-run
-39/59 Test #39: intel-20140616-run ...............   Passed    0.00 sec
-      Start 40: intel-20140610-run
-40/59 Test #40: intel-20140610-run ...............   Passed    0.00 sec
-      Start 41: intel-20140609-obj
-41/59 Test #41: intel-20140609-obj ...............   Passed    0.29 sec
-      Start 42: intel-20140424-run
-42/59 Test #42: intel-20140424-run ...............   Passed    0.00 sec
-      Start 43: intel-20140420-obj
-43/59 Test #43: intel-20140420-obj ...............   Passed    0.25 sec
-      Start 44: intel-20140109-obj
-44/59 Test #44: intel-20140109-obj ...............   Passed    0.27 sec
-      Start 45: intel-20131030-run
-45/59 Test #45: intel-20131030-run ...............   Passed    0.00 sec
-      Start 46: intel-20130802-obj
-46/59 Test #46: intel-20130802-obj ...............   Passed    0.22 sec
-      Start 47: intel-20130802a-obj
-47/59 Test #47: intel-20130802a-obj ..............   Passed    0.25 sec
-      Start 48: intel-20130330a-obj
-48/59 Test #48: intel-20130330a-obj ..............   Passed    0.25 sec
-      Start 49: intel-20130330b-obj
-49/59 Test #49: intel-20130330b-obj ..............   Passed    0.26 sec
-      Start 50: intel-20121014-run
-50/59 Test #50: intel-20121014-run ...............   Passed    0.00 sec
-      Start 51: intel-20121013a-run
-51/59 Test #51: intel-20121013a-run ..............   Passed    0.00 sec
-      Start 52: intel-20121013-obj
-52/59 Test #52: intel-20121013-obj ...............   Passed    0.18 sec
-      Start 53: intel-20121008-run
-53/59 Test #53: intel-20121008-run ...............***Failed    0.04 sec
-      Start 54: intel-20121007a-obj
-54/59 Test #54: intel-20121007a-obj ..............   Passed    0.24 sec
-      Start 55: intel-20121007b-run
-55/59 Test #55: intel-20121007b-run ..............   Passed    0.00 sec
-      Start 56: intel-20121006-obj
-56/59 Test #56: intel-20121006-obj ...............   Passed    0.25 sec
-      Start 57: intel-20121006a-obj
-57/59 Test #57: intel-20121006a-obj ..............   Passed    0.25 sec
-      Start 58: intel-20121006b-obj
-58/59 Test #58: intel-20121006b-obj ..............   Passed    0.33 sec
-      Start 59: intel-20121001-run
-59/59 Test #59: intel-20121001-run ...............   Passed    0.00 sec
+10/60 Test #10: intel-20230603-run ...............***Not Run   0.00 sec
+      Start 11: intel-20220211-run
+11/60 Test #11: intel-20220211-run ...............   Passed    0.00 sec
+      Start 12: intel-20211122-obj
+12/60 Test #12: intel-20211122-obj ...............   Passed    0.24 sec
+      Start 13: intel-20210619-obj
+13/60 Test #13: intel-20210619-obj ...............   Passed    0.25 sec
+      Start 14: intel-20200721-obj
+14/60 Test #14: intel-20200721-obj ...............   Passed    0.24 sec
+      Start 15: intel-20200213-run
+15/60 Test #15: intel-20200213-run ...............   Passed    0.00 sec
+      Start 16: intel-20200125-run
+16/60 Test #16: intel-20200125-run ...............   Passed    0.00 sec
+      Start 17: intel-20191229-run
+17/60 Test #17: intel-20191229-run ...............   Passed    0.00 sec
+      Start 18: intel-20191228-exe
+18/60 Test #18: intel-20191228-exe ...............   Passed    0.36 sec
+      Start 19: intel-20191228-run
+19/60 Test #19: intel-20191228-run ...............   Passed    0.02 sec
+      Start 20: intel-20190909-obj
+20/60 Test #20: intel-20190909-obj ...............   Passed    0.26 sec
+      Start 21: intel-20190903b-obj
+21/60 Test #21: intel-20190903b-obj ..............   Passed    0.29 sec
+      Start 22: intel-20190903-obj
+22/60 Test #22: intel-20190903-obj ...............   Passed    0.26 sec
+      Start 23: intel-20190901-obj
+23/60 Test #23: intel-20190901-obj ...............   Passed    0.25 sec
+      Start 24: intel-20180222-run
+24/60 Test #24: intel-20180222-run ...............   Passed    0.00 sec
+      Start 25: intel-20180221-run
+25/60 Test #25: intel-20180221-run ...............***Failed    0.00 sec
+      Start 26: intel-20180117-run
+26/60 Test #26: intel-20180117-run ...............   Passed    0.00 sec
+      Start 27: intel-20180115-run
+27/60 Test #27: intel-20180115-run ...............   Passed    0.00 sec
+      Start 28: intel-20171126-exe
+28/60 Test #28: intel-20171126-exe ...............   Passed    0.36 sec
+      Start 29: intel-20171126-run
+29/60 Test #29: intel-20171126-run ...............   Passed    0.02 sec
+      Start 30: intel-20171115-obj
+30/60 Test #30: intel-20171115-obj ...............   Passed    0.24 sec
+      Start 31: intel-20171023-run
+31/60 Test #31: intel-20171023-run ...............   Passed    0.00 sec
+      Start 32: intel-20171019-run
+32/60 Test #32: intel-20171019-run ...............   Passed    0.00 sec
+      Start 33: intel-20171018-obj
+33/60 Test #33: intel-20171018-obj ...............   Passed    0.25 sec
+      Start 34: intel-20150601-run
+34/60 Test #34: intel-20150601-run ...............   Passed    0.00 sec
+      Start 35: intel-20150531-obj
+35/60 Test #35: intel-20150531-obj ...............   Passed    0.27 sec
+      Start 36: intel-20141014-run
+36/60 Test #36: intel-20141014-run ...............   Passed    0.00 sec
+      Start 37: intel-20140618a-run
+37/60 Test #37: intel-20140618a-run ..............   Passed    0.00 sec
+      Start 38: intel-20140618b-run
+38/60 Test #38: intel-20140618b-run ..............   Passed    0.00 sec
+      Start 39: intel-20140617-run
+39/60 Test #39: intel-20140617-run ...............   Passed    0.00 sec
+      Start 40: intel-20140616-run
+40/60 Test #40: intel-20140616-run ...............   Passed    0.00 sec
+      Start 41: intel-20140610-run
+41/60 Test #41: intel-20140610-run ...............   Passed    0.00 sec
+      Start 42: intel-20140609-obj
+42/60 Test #42: intel-20140609-obj ...............   Passed    0.32 sec
+      Start 43: intel-20140424-run
+43/60 Test #43: intel-20140424-run ...............   Passed    0.00 sec
+      Start 44: intel-20140420-obj
+44/60 Test #44: intel-20140420-obj ...............   Passed    0.24 sec
+      Start 45: intel-20140109-obj
+45/60 Test #45: intel-20140109-obj ...............   Passed    0.27 sec
+      Start 46: intel-20131030-run
+46/60 Test #46: intel-20131030-run ...............   Passed    0.00 sec
+      Start 47: intel-20130802-obj
+47/60 Test #47: intel-20130802-obj ...............   Passed    0.22 sec
+      Start 48: intel-20130802a-obj
+48/60 Test #48: intel-20130802a-obj ..............   Passed    0.25 sec
+      Start 49: intel-20130330a-obj
+49/60 Test #49: intel-20130330a-obj ..............   Passed    0.26 sec
+      Start 50: intel-20130330b-obj
+50/60 Test #50: intel-20130330b-obj ..............   Passed    0.25 sec
+      Start 51: intel-20121014-run
+51/60 Test #51: intel-20121014-run ...............   Passed    0.00 sec
+      Start 52: intel-20121013a-run
+52/60 Test #52: intel-20121013a-run ..............   Passed    0.00 sec
+      Start 53: intel-20121013-obj
+53/60 Test #53: intel-20121013-obj ...............   Passed    0.19 sec
+      Start 54: intel-20121008-run
+54/60 Test #54: intel-20121008-run ...............***Failed    0.04 sec
+      Start 55: intel-20121007a-obj
+55/60 Test #55: intel-20121007a-obj ..............   Passed    0.24 sec
+      Start 56: intel-20121007b-run
+56/60 Test #56: intel-20121007b-run ..............   Passed    0.00 sec
+      Start 57: intel-20121006-obj
+57/60 Test #57: intel-20121006-obj ...............   Passed    0.25 sec
+      Start 58: intel-20121006a-obj
+58/60 Test #58: intel-20121006a-obj ..............   Passed    0.27 sec
+      Start 59: intel-20121006b-obj
+59/60 Test #59: intel-20121006b-obj ..............   Passed    0.33 sec
+      Start 60: intel-20121001-run
+60/60 Test #60: intel-20121001-run ...............   Passed    0.00 sec
 
-83% tests passed, 10 tests failed out of 59
+82% tests passed, 11 tests failed out of 60
 
 Label Time Summary:
-CMPLRLLVM-48333    =   0.39 sec*proc (2 tests)
+CMPLRLLVM-48333    =   0.41 sec*proc (2 tests)
 CMPLRLLVM-48376    =   0.35 sec*proc (2 tests)
 CMPLRLLVM-53862    =   0.00 sec*proc (1 test)
 CMPLRLLVM-53947    =   0.18 sec*proc (2 tests)
-intel-bugs         =   7.94 sec*proc (59 tests)
+intel-bugs         =   8.21 sec*proc (60 tests)
 
-Total Test time (real) =   7.97 sec
+Total Test time (real) =   8.24 sec
 
 The following tests FAILED:
-	  2 - intel-20231205-run (Failed)
-	  3 - intel-20231123-exe (Failed)
-	  4 - intel-20231123-run (Not Run)
-	  5 - intel-20231122-obj (Failed)
-	  6 - intel-20230604-exe (Failed)
-	  7 - intel-20230604-run (Not Run)
-	  8 - intel-20230603-exe (Failed)
-	  9 - intel-20230603-run (Not Run)
-	 24 - intel-20180221-run (Failed)
-	 53 - intel-20121008-run (Failed)
+	  1 - intel-20231210-obj (Failed)
+	  3 - intel-20231205-run (Failed)
+	  4 - intel-20231123-exe (Failed)
+	  5 - intel-20231123-run (Not Run)
+	  6 - intel-20231122-obj (Failed)
+	  7 - intel-20230604-exe (Failed)
+	  8 - intel-20230604-run (Not Run)
+	  9 - intel-20230603-exe (Failed)
+	 10 - intel-20230603-run (Not Run)
+	 25 - intel-20180221-run (Failed)
+	 54 - intel-20121008-run (Failed)
