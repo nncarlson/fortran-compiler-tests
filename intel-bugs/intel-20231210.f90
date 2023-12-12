@@ -1,3 +1,5 @@
+!! Will supposedly be fixed in 2024.1
+!!
 !! REJECTS VALID CODE
 !!
 !! $ ifx --version
