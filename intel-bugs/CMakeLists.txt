@@ -5,6 +5,9 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20231213.f90 RUN_ONLY
+    COMPILE_FLAGS "-assume noold_e0g0_format"
+    PASS_REGULAR_EXPRESSION "5\.67|567")
 add_compiler_test(SOURCES intel-20231210.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20231205.f90 PASS_REGULAR_EXPRESSION "after foo assignment")
 add_compiler_test(SOURCES intel-20231123.f90 PASS_REGULAR_EXPRESSION "ap" LABELS CMPLRLLVM-53947)
