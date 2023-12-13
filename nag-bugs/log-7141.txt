@@ -1,182 +1,186 @@
 Test project /home/nnc/Fortran/fortran-compiler-tests/nag-bugs/build
-      Start  1: nag-20231211-obj
- 1/67 Test  #1: nag-20231211-obj .................***Failed    0.24 sec
-      Start  2: nag-20231206-run
- 2/67 Test  #2: nag-20231206-run .................***Failed    0.00 sec
-      Start  3: nag-20231204-obj
- 3/67 Test  #3: nag-20231204-obj .................***Failed    0.26 sec
-      Start  4: nag-20230603c-run
- 4/67 Test  #4: nag-20230603c-run ................   Passed    0.00 sec
-      Start  5: nag-20230603b-run
- 5/67 Test  #5: nag-20230603b-run ................   Passed    0.00 sec
-      Start  6: nag-20230603a-obj
- 6/67 Test  #6: nag-20230603a-obj ................   Passed    0.21 sec
-      Start  7: nag-20230529-obj
- 7/67 Test  #7: nag-20230529-obj .................   Passed    0.23 sec
-      Start  8: nag-20230527-exe
- 8/67 Test  #8: nag-20230527-exe .................   Passed    0.38 sec
-      Start  9: nag-20230527-run
- 9/67 Test  #9: nag-20230527-run .................   Passed    0.02 sec
-      Start 10: nag-20230426-obj
-10/67 Test #10: nag-20230426-obj .................   Passed    0.23 sec
-      Start 11: nag-20230426b-obj
-11/67 Test #11: nag-20230426b-obj ................   Passed    0.19 sec
-      Start 12: nag-20220421-run
-12/67 Test #12: nag-20220421-run .................   Passed    0.00 sec
-      Start 13: nag-20220312-obj
-13/67 Test #13: nag-20220312-obj .................   Passed    0.25 sec
-      Start 14: nag-20220127-obj
-14/67 Test #14: nag-20220127-obj .................   Passed    0.22 sec
-      Start 15: nag-20220117-obj
-15/67 Test #15: nag-20220117-obj .................   Passed    0.21 sec
-      Start 16: nag-20220104-obj
-16/67 Test #16: nag-20220104-obj .................   Passed    0.24 sec
-      Start 17: nag-20220103-obj
-17/67 Test #17: nag-20220103-obj .................   Passed    0.24 sec
-      Start 18: nag-20200124-obj
-18/67 Test #18: nag-20200124-obj .................   Passed    0.24 sec
-      Start 19: nag-20200110-run
-19/67 Test #19: nag-20200110-run .................   Passed    0.00 sec
-      Start 20: nag-20190906-run
-20/67 Test #20: nag-20190906-run .................   Passed    0.00 sec
-      Start 21: nag-20190831-run
-21/67 Test #21: nag-20190831-run .................   Passed    0.00 sec
-      Start 22: nag-20190826a-obj
-22/67 Test #22: nag-20190826a-obj ................   Passed    0.22 sec
-      Start 23: nag-20190826b-obj
-23/67 Test #23: nag-20190826b-obj ................***Failed    0.16 sec
-      Start 24: nag-20190608-obj
-24/67 Test #24: nag-20190608-obj .................   Passed    0.22 sec
-      Start 25: nag-20190507-run
-25/67 Test #25: nag-20190507-run .................   Passed    0.00 sec
-      Start 26: nag-20190506-run
-26/67 Test #26: nag-20190506-run .................   Passed    0.00 sec
-      Start 27: nag-20190302-obj
-27/67 Test #27: nag-20190302-obj .................   Passed    0.21 sec
-      Start 28: nag-20180819-run
-28/67 Test #28: nag-20180819-run .................   Passed    0.00 sec
-      Start 29: nag-20180731-run
-29/67 Test #29: nag-20180731-run .................   Passed    0.00 sec
-      Start 30: nag-20180323-obj
-30/67 Test #30: nag-20180323-obj .................   Passed    0.44 sec
-      Start 31: nag-20180219-run
-31/67 Test #31: nag-20180219-run .................   Passed    0.00 sec
-      Start 32: nag-20180205c-obj
-32/67 Test #32: nag-20180205c-obj ................   Passed    0.20 sec
-      Start 33: nag-20180205b-obj
-33/67 Test #33: nag-20180205b-obj ................   Passed    0.20 sec
-      Start 34: nag-20180205a-obj
-34/67 Test #34: nag-20180205a-obj ................   Passed    0.20 sec
-      Start 35: nag-20180204e-obj
-35/67 Test #35: nag-20180204e-obj ................   Passed    0.23 sec
-      Start 36: nag-20180204d-obj
-36/67 Test #36: nag-20180204d-obj ................   Passed    0.24 sec
-      Start 37: nag-20180204c-obj
-37/67 Test #37: nag-20180204c-obj ................   Passed    0.23 sec
-      Start 38: nag-20180204b-obj
-38/67 Test #38: nag-20180204b-obj ................   Passed    0.22 sec
-      Start 39: nag-20180204a-obj
-39/67 Test #39: nag-20180204a-obj ................***Failed    0.13 sec
-      Start 40: nag-20180203f-obj
-40/67 Test #40: nag-20180203f-obj ................   Passed    0.20 sec
-      Start 41: nag-20180203e-obj
-41/67 Test #41: nag-20180203e-obj ................***Failed    0.12 sec
-      Start 42: nag-20180203c-obj
-42/67 Test #42: nag-20180203c-obj ................***Failed    0.13 sec
-      Start 43: nag-20180203b-obj
-43/67 Test #43: nag-20180203b-obj ................   Passed    0.24 sec
-      Start 44: nag-20180203a-obj
-44/67 Test #44: nag-20180203a-obj ................   Passed    0.21 sec
-      Start 45: nag-20180202c-obj
-45/67 Test #45: nag-20180202c-obj ................   Passed    0.23 sec
-      Start 46: nag-20180202b-exe
-46/67 Test #46: nag-20180202b-exe ................   Passed    0.28 sec
-      Start 47: nag-20180202b-run
-47/67 Test #47: nag-20180202b-run ................   Passed    0.02 sec
-      Start 48: nag-20180202a-exe
-48/67 Test #48: nag-20180202a-exe ................   Passed    0.29 sec
-      Start 49: nag-20180202a-run
-49/67 Test #49: nag-20180202a-run ................   Passed    0.02 sec
-      Start 50: nag-20180201-obj
-50/67 Test #50: nag-20180201-obj .................   Passed    0.49 sec
-      Start 51: nag-20171110-obj
-51/67 Test #51: nag-20171110-obj .................   Passed    0.60 sec
-      Start 52: nag-20171027-obj
-52/67 Test #52: nag-20171027-obj .................   Passed    0.25 sec
-      Start 53: nag-20170805a-obj
-53/67 Test #53: nag-20170805a-obj ................   Passed    0.20 sec
-      Start 54: nag-20170805b-obj
-54/67 Test #54: nag-20170805b-obj ................   Passed    0.25 sec
-      Start 55: nag-20160321-obj
-55/67 Test #55: nag-20160321-obj .................   Passed    0.24 sec
-      Start 56: nag-20160129-obj
-56/67 Test #56: nag-20160129-obj .................   Passed    0.30 sec
-      Start 57: nag-20150528-run
-57/67 Test #57: nag-20150528-run .................   Passed    0.00 sec
-      Start 58: nag-20150520-obj
-58/67 Test #58: nag-20150520-obj .................   Passed    0.27 sec
-      Start 59: nag-20150321-obj
-59/67 Test #59: nag-20150321-obj .................   Passed    0.29 sec
-      Start 60: nag-20140617-run
-60/67 Test #60: nag-20140617-run .................   Passed    0.00 sec
-      Start 61: nag-20140616-obj
-61/67 Test #61: nag-20140616-obj .................   Passed    0.21 sec
-      Start 62: nag-20140417-obj
-62/67 Test #62: nag-20140417-obj .................   Passed    0.37 sec
-      Start 63: nag-20140108-obj
-63/67 Test #63: nag-20140108-obj .................   Passed    0.24 sec
-      Start 64: nag-20131204-obj
-64/67 Test #64: nag-20131204-obj .................   Passed    0.25 sec
-      Start 65: nag-20130818-run
-65/67 Test #65: nag-20130818-run .................   Passed    0.00 sec
-      Start 66: nag-20121111-obj
-66/67 Test #66: nag-20121111-obj .................   Passed    0.24 sec
-      Start 67: nag-20121007-obj
-67/67 Test #67: nag-20121007-obj .................   Passed    0.13 sec
+      Start  1: nag-20231213-run
+ 1/68 Test  #1: nag-20231213-run .................Subprocess aborted***Exception:   0.12 sec
+      Start  2: nag-20231211-obj
+ 2/68 Test  #2: nag-20231211-obj .................***Failed    0.28 sec
+      Start  3: nag-20231206-run
+ 3/68 Test  #3: nag-20231206-run .................***Failed    0.00 sec
+      Start  4: nag-20231204-obj
+ 4/68 Test  #4: nag-20231204-obj .................***Failed    0.21 sec
+      Start  5: nag-20230603c-run
+ 5/68 Test  #5: nag-20230603c-run ................   Passed    0.00 sec
+      Start  6: nag-20230603b-run
+ 6/68 Test  #6: nag-20230603b-run ................   Passed    0.00 sec
+      Start  7: nag-20230603a-obj
+ 7/68 Test  #7: nag-20230603a-obj ................   Passed    0.18 sec
+      Start  8: nag-20230529-obj
+ 8/68 Test  #8: nag-20230529-obj .................   Passed    0.24 sec
+      Start  9: nag-20230527-exe
+ 9/68 Test  #9: nag-20230527-exe .................   Passed    0.36 sec
+      Start 10: nag-20230527-run
+10/68 Test #10: nag-20230527-run .................   Passed    0.02 sec
+      Start 11: nag-20230426-obj
+11/68 Test #11: nag-20230426-obj .................   Passed    0.19 sec
+      Start 12: nag-20230426b-obj
+12/68 Test #12: nag-20230426b-obj ................   Passed    0.20 sec
+      Start 13: nag-20220421-run
+13/68 Test #13: nag-20220421-run .................   Passed    0.00 sec
+      Start 14: nag-20220312-obj
+14/68 Test #14: nag-20220312-obj .................   Passed    0.23 sec
+      Start 15: nag-20220127-obj
+15/68 Test #15: nag-20220127-obj .................   Passed    0.20 sec
+      Start 16: nag-20220117-obj
+16/68 Test #16: nag-20220117-obj .................   Passed    0.22 sec
+      Start 17: nag-20220104-obj
+17/68 Test #17: nag-20220104-obj .................   Passed    0.22 sec
+      Start 18: nag-20220103-obj
+18/68 Test #18: nag-20220103-obj .................   Passed    0.20 sec
+      Start 19: nag-20200124-obj
+19/68 Test #19: nag-20200124-obj .................   Passed    0.23 sec
+      Start 20: nag-20200110-run
+20/68 Test #20: nag-20200110-run .................   Passed    0.00 sec
+      Start 21: nag-20190906-run
+21/68 Test #21: nag-20190906-run .................   Passed    0.00 sec
+      Start 22: nag-20190831-run
+22/68 Test #22: nag-20190831-run .................   Passed    0.00 sec
+      Start 23: nag-20190826a-obj
+23/68 Test #23: nag-20190826a-obj ................   Passed    0.23 sec
+      Start 24: nag-20190826b-obj
+24/68 Test #24: nag-20190826b-obj ................***Failed    0.16 sec
+      Start 25: nag-20190608-obj
+25/68 Test #25: nag-20190608-obj .................   Passed    0.24 sec
+      Start 26: nag-20190507-run
+26/68 Test #26: nag-20190507-run .................   Passed    0.00 sec
+      Start 27: nag-20190506-run
+27/68 Test #27: nag-20190506-run .................   Passed    0.00 sec
+      Start 28: nag-20190302-obj
+28/68 Test #28: nag-20190302-obj .................   Passed    0.22 sec
+      Start 29: nag-20180819-run
+29/68 Test #29: nag-20180819-run .................   Passed    0.00 sec
+      Start 30: nag-20180731-run
+30/68 Test #30: nag-20180731-run .................   Passed    0.00 sec
+      Start 31: nag-20180323-obj
+31/68 Test #31: nag-20180323-obj .................   Passed    0.49 sec
+      Start 32: nag-20180219-run
+32/68 Test #32: nag-20180219-run .................   Passed    0.00 sec
+      Start 33: nag-20180205c-obj
+33/68 Test #33: nag-20180205c-obj ................   Passed    0.22 sec
+      Start 34: nag-20180205b-obj
+34/68 Test #34: nag-20180205b-obj ................   Passed    0.20 sec
+      Start 35: nag-20180205a-obj
+35/68 Test #35: nag-20180205a-obj ................   Passed    0.21 sec
+      Start 36: nag-20180204e-obj
+36/68 Test #36: nag-20180204e-obj ................   Passed    0.24 sec
+      Start 37: nag-20180204d-obj
+37/68 Test #37: nag-20180204d-obj ................   Passed    0.21 sec
+      Start 38: nag-20180204c-obj
+38/68 Test #38: nag-20180204c-obj ................   Passed    0.22 sec
+      Start 39: nag-20180204b-obj
+39/68 Test #39: nag-20180204b-obj ................   Passed    0.19 sec
+      Start 40: nag-20180204a-obj
+40/68 Test #40: nag-20180204a-obj ................***Failed    0.13 sec
+      Start 41: nag-20180203f-obj
+41/68 Test #41: nag-20180203f-obj ................   Passed    0.21 sec
+      Start 42: nag-20180203e-obj
+42/68 Test #42: nag-20180203e-obj ................***Failed    0.11 sec
+      Start 43: nag-20180203c-obj
+43/68 Test #43: nag-20180203c-obj ................***Failed    0.13 sec
+      Start 44: nag-20180203b-obj
+44/68 Test #44: nag-20180203b-obj ................   Passed    0.22 sec
+      Start 45: nag-20180203a-obj
+45/68 Test #45: nag-20180203a-obj ................   Passed    0.19 sec
+      Start 46: nag-20180202c-obj
+46/68 Test #46: nag-20180202c-obj ................   Passed    0.22 sec
+      Start 47: nag-20180202b-exe
+47/68 Test #47: nag-20180202b-exe ................   Passed    0.31 sec
+      Start 48: nag-20180202b-run
+48/68 Test #48: nag-20180202b-run ................   Passed    0.01 sec
+      Start 49: nag-20180202a-exe
+49/68 Test #49: nag-20180202a-exe ................   Passed    0.28 sec
+      Start 50: nag-20180202a-run
+50/68 Test #50: nag-20180202a-run ................   Passed    0.02 sec
+      Start 51: nag-20180201-obj
+51/68 Test #51: nag-20180201-obj .................   Passed    0.48 sec
+      Start 52: nag-20171110-obj
+52/68 Test #52: nag-20171110-obj .................   Passed    0.54 sec
+      Start 53: nag-20171027-obj
+53/68 Test #53: nag-20171027-obj .................   Passed    0.24 sec
+      Start 54: nag-20170805a-obj
+54/68 Test #54: nag-20170805a-obj ................   Passed    0.20 sec
+      Start 55: nag-20170805b-obj
+55/68 Test #55: nag-20170805b-obj ................   Passed    0.21 sec
+      Start 56: nag-20160321-obj
+56/68 Test #56: nag-20160321-obj .................   Passed    0.24 sec
+      Start 57: nag-20160129-obj
+57/68 Test #57: nag-20160129-obj .................   Passed    0.26 sec
+      Start 58: nag-20150528-run
+58/68 Test #58: nag-20150528-run .................   Passed    0.00 sec
+      Start 59: nag-20150520-obj
+59/68 Test #59: nag-20150520-obj .................   Passed    0.25 sec
+      Start 60: nag-20150321-obj
+60/68 Test #60: nag-20150321-obj .................   Passed    0.26 sec
+      Start 61: nag-20140617-run
+61/68 Test #61: nag-20140617-run .................   Passed    0.00 sec
+      Start 62: nag-20140616-obj
+62/68 Test #62: nag-20140616-obj .................   Passed    0.21 sec
+      Start 63: nag-20140417-obj
+63/68 Test #63: nag-20140417-obj .................   Passed    0.38 sec
+      Start 64: nag-20140108-obj
+64/68 Test #64: nag-20140108-obj .................   Passed    0.23 sec
+      Start 65: nag-20131204-obj
+65/68 Test #65: nag-20131204-obj .................   Passed    0.21 sec
+      Start 66: nag-20130818-run
+66/68 Test #66: nag-20130818-run .................   Passed    0.00 sec
+      Start 67: nag-20121111-obj
+67/68 Test #67: nag-20121111-obj .................   Passed    0.22 sec
+      Start 68: nag-20121007-obj
+68/68 Test #68: nag-20121007-obj .................   Passed    0.14 sec
 
-90% tests passed, 7 tests failed out of 67
+88% tests passed, 8 tests failed out of 68
 
 Label Time Summary:
-SR100256    =   0.61 sec*proc (3 tests)
-SR100272    =   0.44 sec*proc (1 test)
+SR100256    =   0.63 sec*proc (3 tests)
+SR100272    =   0.49 sec*proc (1 test)
 SR101681    =   0.00 sec*proc (1 test)
 SR101836    =   0.00 sec*proc (1 test)
-SR103029    =   0.21 sec*proc (1 test)
-SR103454    =   0.01 sec*proc (2 tests)
-SR103620    =   0.22 sec*proc (1 test)
-SR104042    =   0.38 sec*proc (2 tests)
+SR103029    =   0.22 sec*proc (1 test)
+SR103454    =   0.00 sec*proc (2 tests)
+SR103620    =   0.24 sec*proc (1 test)
+SR104042    =   0.39 sec*proc (2 tests)
 SR104066    =   0.01 sec*proc (2 tests)
 SR104737    =   0.00 sec*proc (1 test)
-SR104818    =   0.24 sec*proc (1 test)
-SR108297    =   0.21 sec*proc (1 test)
-SR108353    =   0.22 sec*proc (1 test)
-SR108547    =   0.24 sec*proc (1 test)
-SR108549    =   0.25 sec*proc (1 test)
+SR104818    =   0.23 sec*proc (1 test)
+SR108297    =   0.22 sec*proc (1 test)
+SR108353    =   0.20 sec*proc (1 test)
+SR108547    =   0.22 sec*proc (1 test)
+SR108549    =   0.23 sec*proc (1 test)
 SR108695    =   0.00 sec*proc (1 test)
-SR108840    =   0.21 sec*proc (1 test)
+SR108840    =   0.18 sec*proc (1 test)
 SR108841    =   0.00 sec*proc (1 test)
 SR108842    =   0.00 sec*proc (1 test)
-SR109729    =   0.23 sec*proc (1 test)
-SR109734    =   0.19 sec*proc (1 test)
-SR109818    =   0.23 sec*proc (1 test)
-SR109822    =   0.39 sec*proc (2 tests)
-SR110428    =   0.26 sec*proc (1 test)
+SR109729    =   0.19 sec*proc (1 test)
+SR109734    =   0.20 sec*proc (1 test)
+SR109818    =   0.24 sec*proc (1 test)
+SR109822    =   0.38 sec*proc (2 tests)
+SR110428    =   0.21 sec*proc (1 test)
 SR110437    =   0.00 sec*proc (1 test)
-SR99906     =   0.49 sec*proc (1 test)
-SR99908     =   0.31 sec*proc (2 tests)
-SR99909     =   0.30 sec*proc (2 tests)
-SR99910     =   0.23 sec*proc (1 test)
-SR99921     =   0.45 sec*proc (2 tests)
+SR110461    =   0.28 sec*proc (1 test)
+SR99906     =   0.48 sec*proc (1 test)
+SR99908     =   0.30 sec*proc (2 tests)
+SR99909     =   0.32 sec*proc (2 tests)
+SR99910     =   0.22 sec*proc (1 test)
+SR99921     =   0.41 sec*proc (2 tests)
 SR99982     =   0.00 sec*proc (1 test)
-nag-bug     =  12.18 sec*proc (67 tests)
+nag-bug     =  11.85 sec*proc (68 tests)
 
-Total Test time (real) =  12.21 sec
+Total Test time (real) =  11.88 sec
 
 The following tests FAILED:
-	  1 - nag-20231211-obj (Failed)
-	  2 - nag-20231206-run (Failed)
-	  3 - nag-20231204-obj (Failed)
-	 23 - nag-20190826b-obj (Failed)
-	 39 - nag-20180204a-obj (Failed)
-	 41 - nag-20180203e-obj (Failed)
-	 42 - nag-20180203c-obj (Failed)
+	  1 - nag-20231213-run (Subprocess aborted)
+	  2 - nag-20231211-obj (Failed)
+	  3 - nag-20231206-run (Failed)
+	  4 - nag-20231204-obj (Failed)
+	 24 - nag-20190826b-obj (Failed)
+	 40 - nag-20180204a-obj (Failed)
+	 42 - nag-20180203e-obj (Failed)
+	 43 - nag-20180203c-obj (Failed)
