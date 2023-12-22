@@ -1,3 +1,5 @@
+!! SR 110467
+!!
 !! BAD CODE WITH ASSUMED RANK, CLASS(*) ARGUMENT
 !!
 !! The following example variously produces a runtime buffer overflow error,

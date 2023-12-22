@@ -1,4 +1,4 @@
-!! SR110461
+!! SR110461. Fixed in 7142.
 !!
 !! INTERNAL COMPILER ERROR
 !!
