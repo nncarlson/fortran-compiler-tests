@@ -1,4 +1,4 @@
-!! SR110428
+!! SR110428. Fixed in 7144
 !!
 !! INTERNAL COMPILER ERROR
 !!

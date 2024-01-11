@@ -5,7 +5,7 @@ include(testing)
 
 project(nag-bug Fortran)
 
-add_compiler_test(SOURCES nag-20231213.f90 RUN_ONLY
+add_compiler_test(SOURCES nag-20231213.f90 RUN_ONLY LABELS SR110467
     COMPILE_FLAGS "-f2018" PASS_REGULAR_EXPRESSION "write_cstar:fubar")
 add_compiler_test(SOURCES nag-20231211.f90 COMPILE_ONLY LABELS SR110461)
 add_compiler_test(SOURCES nag-20231206.f90 RUN_ONLY LABELS SR110437)
