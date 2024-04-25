@@ -1,4 +1,4 @@
-!! Will supposedly be fixed in 2024.1
+!! Fixed in 2024.1
 !!
 !! REJECTS VALID CODE
 !!

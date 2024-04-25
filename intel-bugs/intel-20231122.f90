@@ -1,4 +1,5 @@
-!! Will supposedly be fixed in 2024.1
+!! Fixed in 2024.1
+!! Worked in ifort 2021.10, broken in 2024.11 (2024.0), fixed in 2024.12 (2024.1)
 !!
 !! INTERNAL COMPILER ERROR
 !!
