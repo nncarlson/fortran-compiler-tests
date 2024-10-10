@@ -1,4 +1,4 @@
-!! CMPLRLLVM-53947
+!! CMPLRLLVM-53947 -- Fixed in 2024.2 (and ifort 21.13)
 !!
 !! REJECTS VALID CODE
 !!

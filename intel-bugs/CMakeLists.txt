@@ -5,6 +5,7 @@ include(testing)
 
 project(intel-bugs Fortran)
 
+add_compiler_test(SOURCES intel-20241010.f90 COMPILE_ONLY)
 add_compiler_test(SOURCES intel-20240327.f90
     COMPILE_ONLY LABELS CMPLRLLVM-57245)
 add_compiler_test(SOURCES intel-20231213.f90 RUN_ONLY
