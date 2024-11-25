@@ -5,9 +5,10 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compiler_test(SOURCES gfortran-20241125.f90 COMPILE_ONLY LABELS PR117774)
 add_compiler_test(SOURCES gfortran-20240425.f90 RUN_ONLY
     COMPILE_FLAGS "-g -O0 -fsanitize=address,undefined"
-    LINK_FLAGS "-fsanitize=address,undefined")
+    LINK_FLAGS "-fsanitize=address,undefined" LABELS PR114827)
 add_compiler_test(SOURCES gfortran-20231211.f90 COMPILE_ONLY LABELS PR112964)
 add_compiler_test(SOURCES gfortran-20230612.f90 COMPILE_ONLY LABELS PR110224)
 add_compiler_test(SOURCES gfortran-20230529.f90 COMPILE_ONLY LABELS PR110033)
