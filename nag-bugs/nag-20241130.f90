@@ -1,3 +1,4 @@
+!! SR111677. Fixed in 7.2.7221
 !! COMPILER HANGS
 !!
 !! nagfor 7.2.7220 hangs on the following code. If either of
