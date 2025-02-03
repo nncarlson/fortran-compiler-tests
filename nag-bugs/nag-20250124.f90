@@ -1,3 +1,4 @@
+!! SR111801: Fixed in 7225
 !! INVALID INTERMEDIATE C CODE WITH GCC 14
 !!
 !! The following example gives a C compiler error with nagfor 7.2.7221 and
