@@ -1,3 +1,4 @@
+!! Fixed in 2025.1
 !! INTERNAL COMPILER ERROR
 !!
 !! ifx intel-20241010.f90

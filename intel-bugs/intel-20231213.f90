@@ -1,4 +1,4 @@
-!!
+!! Fixed in 2025.1
 !! POOR OUTPUT WITH G0 REAL FORMATTING
 !!
 !! This may not be a bug at all, but rather merely what I consider to be a
