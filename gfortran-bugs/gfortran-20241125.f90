@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=117774
+!! Fixed in gfortran 15.1.0
 !!
 !! INTERNAL COMPILER ERROR
 !!

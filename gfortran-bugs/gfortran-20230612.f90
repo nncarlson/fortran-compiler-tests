@@ -1,4 +1,5 @@
-!!https://gcc.gnu.org/bugzilla/show_bug.cgi?id=110224
+!! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=110224
+!! Fixed in 14.1.0
 !!
 !! VALID CODE REJECTED
 !!

@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=86100
+!! Finally fixed in gfortran 14.2.0
 !!
 !! SPURIOUS RUNTIME ERROR WITH -fcheck=bounds AND CLASS(*) ARRAY COMPONENTS
 !!

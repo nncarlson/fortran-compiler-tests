@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=88043
+!! Finally fixed in gfortran 15.1.0
 !!
 !! RUNTIME ERROR WITH CALL TO DEFERRED MEMBER FUNCTION
 !!

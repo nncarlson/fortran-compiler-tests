@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=114827
+!! Fixed in gfortran 14.2.0
 !!
 !! BAD CODE
 !!

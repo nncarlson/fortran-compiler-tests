@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=49213
+!! Finally fixed in gfortran 14.1.0
 !!
 !! This reworking of gfortran-bug-20110528.f90 is standard F2003.
 !!

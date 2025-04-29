@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=49213
+!! Finally fixed in gfortran 14.1.0
 !!
 !! Note that the intrinsic assignment to a polymorphic variable
 !! is a F2008 feature (not what this problem report is about).

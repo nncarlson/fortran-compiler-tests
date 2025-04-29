@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=49213
+!! Finally fixed in gfortran 14.1.0
 !!
 !! Another case of gfortran-bug-20110616.f90.  GFortran seems to be
 !! fundamentally broken when it comes to derived types with polymorphic 

@@ -1,4 +1,5 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=93762
+!! Finally fixed in 13.3.0
 !!
 !! INVALID CODE FROM OPTIONAL DEFERRED-LENGTH ALLOCATABLE CHARACTER DUMMY ARG
 !!
