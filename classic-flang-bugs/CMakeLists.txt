@@ -1,0 +1,98 @@
+cmake_minimum_required(VERSION 3.9)
+
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../cmake")
+include(testing)
+
+project(flang-bug Fortran)
+
+add_compiler_test(SOURCES flang-20190512a.f90 RUN_ONLY LABELS ISSUE713)
+
+add_compiler_test(SOURCES flang-20190511a.f90 RUN_ONLY LABELS ISSUE720)
+add_compiler_test(SOURCES flang-20190511b.f90 RUN_ONLY LABELS ISSUE721)
+add_compiler_test(SOURCES flang-20190511c.f90 RUN_ONLY LABELS ISSUE722)
+
+add_compiler_test(SOURCES flang-20190506b.f90 COMPILE_ONLY
+    LABELS ISSUE715)
+add_compiler_test(SOURCES flang-20190506c.f90 COMPILE_ONLY
+    LABELS ISSUE715)
+
+add_compiler_test(SOURCES flang-20190505a.f90 RUN_ONLY
+    LABELS ISSUE714)
+
+add_compiler_test(SOURCES flang-20190504a.f90 LABELS
+    ISSUE713)
+add_compiler_test(SOURCES flang-20190504b.f90 RUN_ONLY
+    LABELS ISSUE713)
+add_compiler_test(SOURCES flang-20190504c.f90 RUN_ONLY
+    LABELS ISSUE713)
+
+add_compiler_test(SOURCES flang-20190503a.f90 RUN_ONLY
+    LABELS ISSUE244)
+add_compiler_test(SOURCES flang-20190503b.f90 RUN_ONLY
+    LABELS ISSUE244)
+
+add_compiler_test(SOURCES flang-20180319a.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE240)
+add_compiler_test(SOURCES flang-20180319b.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE240)
+
+add_compiler_test(SOURCES flang-20180120.f90 LINK_ONLY WILL_FAIL
+    LABELS FIXED ISSUE237)
+
+add_compiler_test(SOURCES flang-20171123a.f90 COMPILE_ONLY
+    LABELS ISSUE313)
+add_compiler_test(SOURCES flang-20171123b.f90 COMPILE_ONLY WILL_FAIL
+    LABELS ISSUE314)
+
+add_compiler_test(SOURCES flang-20171122a.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "3 2 foobar"
+    LABELS FIXED ISSUE307)
+add_compiler_test(SOURCES flang-20171122b.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "b=\"foo\""
+    LABELS FIXED ISSUE308)
+add_compiler_test(SOURCES flang-20171122c.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "copy= 3 2 1 foobar"
+    LABELS ISSUE309)
+add_compiler_test(SOURCES flang-20171122d.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE308)
+add_compiler_test(SOURCES flang-20171122e.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "copy=\\[\"foo\",\"bar\"\\]"
+    LABELS FIXED ISSUE309)
+add_compiler_test(SOURCES flang-20171122f.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "len2=3 "
+    LABELS ISSUE310)
+add_compiler_test(SOURCES flang-20171122g.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "lbound=1 1, ubound=2 2, shape=2 2"
+    LABELS ISSUE311)
+add_compiler_test(SOURCES flang-20171122h.f90 LINK_ONLY
+    LABELS FIXED ISSUE312)
+
+add_compiler_test(SOURCES flang-20170930a.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "106=01101010"
+    LABELS FIXED ISSUE254)
+add_compiler_test(SOURCES flang-20170930b.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE253)
+add_compiler_test(SOURCES flang-20170930c.f90 RUN_ONLY
+    LABELS FIXED ISSUE255)
+
+add_compiler_test(SOURCES flang-20170924a.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE241)
+add_compiler_test(SOURCES flang-20170924b.f90 RUN_ONLY
+    LABELS FIXED ISSUE243)
+add_compiler_test(SOURCES flang-20170924c.f90 RUN_ONLY
+    PASS_REGULAR_EXPRESSION "42 \\(expect 42\\)"
+    LABELS ISSUE244)
+
+add_compiler_test(SOURCES flang-20170923a.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE237)
+add_compiler_test(SOURCES flang-20170923b.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE239)
+add_compiler_test(SOURCES flang-20170923c.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE240)
+
+add_compiler_test(SOURCES flang-20170611a.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE96)
+add_compiler_test(SOURCES flang-20170611b.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE96)
+add_compiler_test(SOURCES flang-20170611c.f90 COMPILE_ONLY
+    LABELS FIXED ISSUE96)
