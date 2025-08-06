@@ -1,3 +1,4 @@
+!! Fixed in ifort 2021.11.0
 !!
 !! INTERNAL COMPILER ERROR
 !!
