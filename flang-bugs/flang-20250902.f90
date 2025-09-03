@@ -1,5 +1,14 @@
 !! https://github.com/llvm/llvm-project/issues/156536
 !!
+!! UPDATE
+!!
+!! This is not a bug (exactly) but a consequence of newer glibc versions not
+!! allowing an executable stack by default, and flang requiring one (hence the
+!! runtime segfault.) See the link above for more info.
+!!
+!! This is resolved (for now with glib 2.40) by using the link line option
+!! `-Wl,-zexecstack`.
+!! 
 !! RUNTIME SEGFAULT WITH VALID CODE
 !!
 !! In this example, a call-back subroutine is passed to subroutine which
