@@ -10,7 +10,7 @@
 !! Warning: nag-20260110.f90, line 32: Unused dummy variable ARRAY
 !! Warning: nag-20260110.f90, line 32: Unused dummy variable THIS
 !! Warning: nag-20260110.f90, line 35: Unused dummy variable ARRAY
-!! Error: nag-20260110.f90, line 44: No specific match for reference to generic type-bound procedure SUB
+!! Error: nag-20260110.f90, line 45: No specific match for reference to generic type-bound procedure SUB
 !! [NAG Fortran Compiler error termination, 1 error, 3 warnings]
 !!
 
@@ -23,7 +23,7 @@ module foo_type
   end type
   ! An unbound generic with assumed-rank argument
   interface sub
-    procedure :: sub2
+    procedure :: sub2, sub1
   end interface
 contains
   subroutine sub1(this, array)
@@ -40,7 +40,8 @@ type(foo) :: x
 contains
   subroutine bar(array)
     real array(..)
-    call sub(array)   ! THIS RESOLVES CORRECTLY
-    call x%sub(array) ! BUT THIS DOES NOT!
+    call sub(array)    ! THIS RESOLVES CORRECTLY,
+    call sub(x, array) ! AND SO DOES THIS,
+    call x%sub(array)  ! BUT THIS DOES NOT!
   end subroutine
 end
