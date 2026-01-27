@@ -1,3 +1,4 @@
+!! Fixed in 7.2.7243
 !! REJECTS VALID CODE
 !!
 !! In this example an assumed-rank dummy is passed to a generic subroutine with
