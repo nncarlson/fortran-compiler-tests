@@ -11,12 +11,15 @@
 !! $ ./a.out
 !! STOP 1
  
-call sub([integer::]) ! passing a 0-sized integer array
+integer y(0)
+if (foo(y) /= 0) stop 1
+if (foo([integer::]) /= 0) stop 2
+if (foo(y-1) /= 0) stop 3
 contains
-  subroutine sub(x)
+  integer function foo(x) result(n)
     integer x(..)
     integer dims(rank(x))
     dims = shape(x)
-    if (dims(1) /= 0) stop 1
-  end subroutine
+    n = dims(1)
+  end function
 end
