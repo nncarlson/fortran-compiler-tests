@@ -5,6 +5,7 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compiler_test(SOURCES gfortran-20260130.f90 RUN_ONLY LABELS PR123899)
 add_compiler_test(SOURCES gfortran-20250826.f90 RUN_ONLY
     COMPILE_FLAGS "-g -O0 -fsanitize=address"
     LINK_FLAGS "-fsanitize=address" LABELS PR121683)
