@@ -5,6 +5,9 @@ include(testing)
 
 project(gfortran-bug Fortran)
 
+add_compiler_test(SOURCES gfortran-20260425.f90
+    COMPILE_FLAGS "-fcoarray=lib"
+    LINK_FLAGS "-lcaf_shmem"    LABELS PR125021)
 add_compiler_test(SOURCES gfortran-20260212.f90 RUN_ONLY LABELS PR123899)
 add_compiler_test(SOURCES gfortran-20260130.f90 RUN_ONLY LABELS PR123899)
 add_compiler_test(SOURCES gfortran-20250826.f90 RUN_ONLY
