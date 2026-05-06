@@ -1,7 +1,7 @@
 !! https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125021
 !! INTERNAL COMPILER ERROR: COARRAY
 !!
-!! With gfortran 16.0.1:
+!! With gfortran 16.1.0:
 !!
 !! gfortran -fcoarray=lib gfortran-20260425.f90 -lcaf_shmem
 !! $ gfortran-20260425.f90:12:4:
