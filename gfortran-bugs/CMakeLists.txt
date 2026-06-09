@@ -7,12 +7,15 @@ project(gfortran-bug Fortran)
 
 # New shmem coarray implementation
 if(CMAKE_Fortran_COMPILER_VERSION VERSION_GREATER "16.0")
-  add_compiler_test(SOURCES gfortran-20260429.f90 COMPILE_FLAGS "-fcoarray=lib" LINK_FLAGS "-lcaf_shmem"    LABELS PR125113)
-  add_compiler_test(SOURCES gfortran-20260425.f90 COMPILE_FLAGS "-fcoarray=lib" LINK_FLAGS "-lcaf_shmem"    LABELS PR125021)
+  add_compiler_test(SOURCES gfortran-20260429.f90 COMPILE_FLAGS "-fcoarray=lib" LINK_FLAGS "-lcaf_shmem" LABELS PR125113)
 endif()
 
+add_compiler_test(SOURCES gfortran-20260602a.f90 RUN_ONLY LABELS PR125578)
+add_compiler_test(SOURCES gfortran-20260602b.f90 RUN_ONLY LABELS PR125578)
+add_compiler_test(SOURCES gfortran-20260601.f90 COMPILE_ONLY LABELS PR125560)
 add_compiler_test(SOURCES gfortran-20260523.f90 COMPILE_ONLY LABELS PR125391)
 add_compiler_test(SOURCES gfortran-20260505.f90 COMPILE_FLAGS "-g -fcheck=bounds" RUN_ONLY LABELS PR125198)
+add_compiler_test(SOURCES gfortran-20260425.f90 COMPILE_FLAGS "-fcoarray=lib" COMPILE_ONLY LABELS PR125021)
 add_compiler_test(SOURCES gfortran-20260212.f90 RUN_ONLY LABELS PR123899)
 add_compiler_test(SOURCES gfortran-20260130.f90 RUN_ONLY LABELS PR123899)
 add_compiler_test(SOURCES gfortran-20250826.f90 RUN_ONLY
