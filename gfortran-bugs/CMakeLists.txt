@@ -10,6 +10,7 @@ if(CMAKE_Fortran_COMPILER_VERSION VERSION_GREATER "16.0")
   add_compiler_test(SOURCES gfortran-20260429.f90 COMPILE_FLAGS "-fcoarray=lib" LINK_FLAGS "-lcaf_shmem" LABELS PR125113)
 endif()
 
+add_compiler_test(SOURCES gfortran-20261027.f90 RUN_ONLY)
 add_compiler_test(SOURCES gfortran-20260602a.f90 RUN_ONLY LABELS PR125578)
 add_compiler_test(SOURCES gfortran-20260602b.f90 RUN_ONLY LABELS PR125578)
 add_compiler_test(SOURCES gfortran-20260601.f90 COMPILE_ONLY LABELS PR125560)
